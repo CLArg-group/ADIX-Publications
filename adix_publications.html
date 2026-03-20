@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADIX Publications</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --imperial: #003e74;
+  --imperial-light: #1a5a8f;
+  --imperial-hover: #004d91;
+  --gold: #b8860b;
+  --gold-light: #d4a017;
+  --gold-muted: rgba(184, 134, 11, 0.10);
+  --gold-border: rgba(184, 134, 11, 0.25);
+  --paper: #f8f6f2;
+  --paper-warm: #f3f0ea;
+  --cream: #faf8f5;
+  --ink: #2c2416;
+  --ink-light: #5a4e3c;
+  --ink-muted: #8a7e6c;
+  --border: rgba(44, 36, 22, 0.08);
+  --border-strong: rgba(44, 36, 22, 0.15);
+  --white: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== HEADER — warm paper, no blue banner ===== */
+.header {
+  padding: 56px 0 44px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0.5;
+}
+.header-inner {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.header h1 {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-weight: 300;
+  font-size: 2.8rem;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+  color: var(--ink);
+}
+.header-sub {
+  font-weight: 300;
+  font-size: 1.02rem;
+  color: var(--ink-muted);
+  margin-top: 8px;
+  letter-spacing: 0.02em;
+}
+.header-sub a {
+  color: var(--imperial);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 62, 116, 0.2);
+  transition: border-color 0.2s;
+}
+.header-sub a:hover { border-color: var(--imperial); }
+
+.stats-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 18px;
+  font-size: 0.84rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.stats-row span {
+  font-weight: 600;
+  color: var(--imperial);
+}
+
+/* ===== MAIN ===== */
+.main {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 28px 32px 80px;
+}
+
+/* ===== FILTERS ===== */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.filter-btn {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.filter-btn:hover {
+  border-color: var(--ink-light);
+  color: var(--ink-light);
+}
+.filter-btn.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--white);
+}
+.filter-btn .count {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.65;
+  margin-left: 3px;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+.search-box input {
+  width: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.9rem;
+  padding: 7px 12px 7px 34px;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: var(--white);
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-box input:focus { border-color: var(--imperial); }
+.search-box input::placeholder { color: var(--ink-muted); font-weight: 300; }
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-muted);
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+}
+
+/* Year row */
+.year-row {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.year-label {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 4px;
+}
+.year-btn {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.year-btn:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.year-btn.active {
+  background: var(--gold-muted);
+  border-color: var(--gold-border);
+  color: var(--gold);
+  font-weight: 600;
+}
+.year-btn .count {
+  font-size: 0.72rem;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-left: 3px;
+}
+
+/* Venue sub-tags */
+.venue-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+  padding: 9px 14px;
+  background: var(--cream);
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+.venue-row-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-muted);
+  margin-right: 4px;
+}
+.venue-tag {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 400;
+  padding: 2px 9px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: var(--white);
+  color: var(--ink-light);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.venue-tag:hover {
+  border-color: var(--imperial-light);
+  color: var(--imperial);
+}
+.venue-tag.active {
+  background: var(--imperial);
+  border-color: var(--imperial);
+  color: var(--white);
+}
+
+.results-info {
+  font-size: 0.84rem;
+  color: var(--ink-muted);
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  font-weight: 300;
+}
+.results-info strong { color: var(--ink-light); font-weight: 600; }
+
+/* ===== PAPER CARDS ===== */
+.year-group { margin-bottom: 32px; }
+.year-heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 0.02em;
+}
+
+.paper {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.paper:last-child { border-bottom: none; }
+.paper:hover {
+  background: var(--cream);
+  margin: 0 -10px;
+  padding: 14px 10px;
+  border-radius: 4px;
+}
+
+.paper-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.paper-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.paper-title a:hover {
+  color: var(--imperial);
+}
+
+.paper-authors {
+  font-size: 0.88rem;
+  color: var(--ink-light);
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.paper-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.paper-venue {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.73rem;
+  font-weight: 400;
+  color: var(--imperial);
+  background: rgba(0, 62, 116, 0.06);
+  padding: 1px 7px;
+  border-radius: 2px;
+  letter-spacing: 0.01em;
+}
+.paper-category {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 1px 7px;
+  border-radius: 2px;
+}
+.cat-conference { color: #1a5a2c; background: rgba(26, 90, 44, 0.07); }
+.cat-workshop { color: #7c4d12; background: rgba(184, 134, 11, 0.08); }
+.cat-journal { color: #6b1d5e; background: rgba(107, 29, 94, 0.07); }
+.cat-preprint { color: var(--ink-muted); background: rgba(138, 126, 108, 0.08); }
+.cat-book_chapter { color: #2c5282; background: rgba(44, 82, 130, 0.07); }
+
+.scholar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+  text-decoration: none;
+  padding: 1px 5px;
+  border-radius: 2px;
+  transition: all 0.2s;
+  margin-left: auto;
+}
+.scholar-btn:hover { background: rgba(66, 133, 244, 0.08); color: #4285f4; }
+.scholar-btn svg { width: 13px; height: 13px; }
+
+/* ===== NO RESULTS ===== */
+.no-results {
+  text-align: center;
+  padding: 50px 20px;
+  color: var(--ink-muted);
+  font-weight: 300;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer a { color: var(--imperial); text-decoration: none; }
+.footer .export-link { color: var(--ink-muted); font-size: 0.72rem; opacity: 0.5; transition: opacity 0.2s; }
+.footer .export-link:hover { opacity: 1; }
+.footer a:hover { text-decoration: underline; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+  .header { padding: 36px 0 28px; }
+  .header h1 { font-size: 2rem; }
+  .header-inner, .main { padding-left: 18px; padding-right: 18px; }
+  .filter-bar { gap: 5px; }
+  .filter-btn { padding: 5px 10px; font-size: 0.78rem; }
+  .stats-row { gap: 12px; flex-wrap: wrap; font-size: 0.78rem; }
+  .scholar-btn { margin-left: 0; }
+  .footer { flex-direction: column; gap: 4px; text-align: center; }
+}
+
+
+/* ===== MODAL ===== */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(44, 36, 22, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--white);
+  border-radius: 8px;
+  width: 560px;
+  max-width: 92vw;
+  max-height: 88vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(44, 36, 22, 0.2);
+  padding: 32px;
+}
+.modal-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--ink);
+  margin-bottom: 20px;
+}
+.modal-field { margin-bottom: 14px; }
+.modal-field label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-muted);
+  margin-bottom: 4px;
+}
+.modal-field input,
+.modal-field select {
+  width: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.9rem;
+  padding: 8px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.modal-field input:focus,
+.modal-field select:focus { border-color: var(--imperial); }
+.modal-row { display: flex; gap: 12px; }
+.modal-row .modal-field { flex: 1; }
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.btn-save {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 3px;
+  background: var(--ink);
+  color: var(--white);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-save:hover { background: var(--imperial); }
+.btn-cancel {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 8px 18px;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-cancel:hover { border-color: var(--ink-light); color: var(--ink-light); }
+.btn-delete {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border: 1px solid #c0392b;
+  border-radius: 3px;
+  background: transparent;
+  color: #c0392b;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-delete:hover { background: #c0392b; color: var(--white); }
+.btn-delete.hidden { display: none; }
+
+/* Add button */
+.add-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.add-btn:hover { border-color: var(--imperial); color: var(--imperial); }
+.add-btn svg { width: 16px; height: 16px; }
+
+/* Edit button on each paper */
+.edit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+  text-decoration: none;
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  opacity: 0;
+}
+.paper:hover .edit-btn { opacity: 1; }
+.edit-btn:hover { background: rgba(0, 62, 116, 0.08); color: var(--imperial); }
+.edit-btn svg { width: 12px; height: 12px; }
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.paper { animation: fadeIn 0.2s ease-out both; }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <h1>ADIX Publications</h1>
+    <p class="header-sub">
+      <a href="https://cordis.europa.eu/project/id/101020934" target="_blank">Argumentation-based Deep Interactive eXplanations</a>
+      &mdash;
+      <a href="https://www.imperial.ac.uk/people/f.toni" target="_blank">Prof.&nbsp;Francesca Toni</a>,
+      <a href="https://www.imperial.ac.uk" target="_blank">Imperial College London</a>
+    </p>
+    <div class="stats-row" id="statsRow"></div>
+  </div>
+</header>
+
+<main class="main">
+  <div class="filter-bar" id="filterBar"></div>
+  <div id="venueContainer"></div>
+  <div class="year-row" id="yearRow"></div>
+  <div class="results-info" id="resultsInfo"></div>
+  <div id="papersContainer"></div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-title" id="modalTitle">Add Publication</div>
+    <div class="modal-field">
+      <label>Title</label>
+      <input type="text" id="fTitle" placeholder="Paper title">
+    </div>
+    <div class="modal-field">
+      <label>Authors</label>
+      <input type="text" id="fAuthors" placeholder="Author1, Author2, ...">
+    </div>
+    <div class="modal-row">
+      <div class="modal-field">
+        <label>Year</label>
+        <input type="number" id="fYear" placeholder="2025" min="2000" max="2030">
+      </div>
+      <div class="modal-field">
+        <label>Category</label>
+        <select id="fCategory">
+          <option value="conference">Conference</option>
+          <option value="workshop">Workshop</option>
+          <option value="journal">Journal</option>
+          <option value="preprint">Preprint</option>
+          <option value="book_chapter">Book</option>
+        </select>
+      </div>
+    </div>
+    <div class="modal-row">
+      <div class="modal-field">
+        <label>Venue (short)</label>
+        <input type="text" id="fVenue" placeholder="e.g. KR 2025, arXiv">
+      </div>
+      <div class="modal-field">
+        <label>DOI</label>
+        <input type="text" id="fDoi" placeholder="10.xxxx/xxxxx">
+      </div>
+    </div>
+    <div class="modal-field">
+      <label>URL</label>
+      <input type="text" id="fUrl" placeholder="https://...">
+    </div>
+    <div class="modal-actions">
+      <button class="btn-delete hidden" id="btnDelete" onclick="deletePaper()">Delete</button>
+      <div style="display:flex;gap:8px;margin-left:auto">
+        <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+        <button class="btn-save" onclick="savePaper()">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div>ADIX &mdash; ERC Advanced Grant No.&nbsp;101020934</div>
+  <div>
+    <a href="https://clarg.doc.ic.ac.uk" target="_blank">CLArg Group</a> &middot; Department of Computing &middot; Imperial College London
+    &nbsp;&middot;&nbsp; <a href="#" onclick="exportJSON(event)" class="export-link">Export JSON</a>
+  </div>
+</footer>
+
+<script>
+let PAPERS = [];
+
+let activeCategory = 'all';
+let activeYears = new Set();
+let activeVenue = null;
+let searchQuery = '';
+
+const allYears = [...new Set(PAPERS.map(p => p.year))].sort((a,b) => b - a);
+const categories = ['conference','workshop','journal','preprint','book_chapter'];
+const catLabels = {all:'All', conference:'Conference', workshop:'Workshop', journal:'Journal', preprint:'Preprint', book_chapter:'Book Chapter'};
+const catPaperLabels = {conference:'Conference', workshop:'Workshop', journal:'Journal', preprint:'Preprint', book_chapter:'Book'};
+
+function baseVenue(v) {
+  return v.replace(/\s*\d{4}$/, '');
+}
+
+function getVenuesForCategory(cat) {
+  const venues = {};
+  PAPERS.forEach(p => {
+    if (p.category === cat) {
+      const bv = baseVenue(p.venue);
+      venues[bv] = (venues[bv] || 0) + 1;
+    }
+  });
+  return Object.entries(venues).sort((a,b) => b[1] - a[1]);
+}
+
+function getFilteredPapers() {
+  return PAPERS.filter(p => {
+    if (activeCategory !== 'all' && p.category !== activeCategory) return false;
+    if (activeYears.size > 0 && !activeYears.has(p.year)) return false;
+    if (activeVenue && baseVenue(p.venue) !== activeVenue) return false;
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      return p.title.toLowerCase().includes(q) || p.authors.toLowerCase().includes(q) || p.venue.toLowerCase().includes(q);
+    }
+    return true;
+  });
+}
+
+function scholarUrl(title) {
+  return 'https://scholar.google.com/scholar?q=' + encodeURIComponent(title);
+}
+
+function renderStats() {
+  const el = document.getElementById('statsRow');
+  el.innerHTML =
+    `<div><span>ERC Advanced Grant</span></div>` +
+    `<div><span>€2.5M</span> Horizon 2020</div>` +
+    `<div><span>2021</span>\u2013<span>2027</span></div>`;
+}
+
+function renderFilters() {
+  const bar = document.getElementById('filterBar');
+  const counts = {all: PAPERS.length};
+  PAPERS.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
+
+  let html = '';
+  ['all', ...categories].forEach(cat => {
+    if ((counts[cat] || 0) === 0) return;
+    const active = activeCategory === cat ? ' active' : '';
+    html += `<button class="filter-btn${active}" data-cat="${cat}">${catLabels[cat]}<span class="count">${counts[cat]}</span></button>`;
+  });
+  html += `<div class="search-box"><svg class="search-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6.5" cy="6.5" r="5"/><line x1="10" y1="10" x2="14.5" y2="14.5"/></svg><input type="text" placeholder="Search title, author, venue\u2026" id="searchInput" value="${searchQuery}"></div>`;
+  html += `<button class="add-btn" onclick="openAdd()" title="Add publication"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="8" y1="3" x2="8" y2="13"/><line x1="3" y1="8" x2="13" y2="8"/></svg></button>`;
+  bar.innerHTML = html;
+
+  bar.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCategory = btn.dataset.cat;
+      activeVenue = null;
+      render();
+    });
+  });
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    searchQuery = e.target.value;
+    render();
+  });
+}
+
+function renderYears() {
+  const row = document.getElementById('yearRow');
+  const yearCounts = {};
+  PAPERS.forEach(p => { yearCounts[p.year] = (yearCounts[p.year] || 0) + 1; });
+  let html = '<span class="year-label">Year</span>';
+  allYears.forEach(y => {
+    const active = activeYears.has(y) ? ' active' : '';
+    html += `<button class="year-btn${active}" data-year="${y}">${y}<span class="count">${yearCounts[y] || 0}</span></button>`;
+  });
+  row.innerHTML = html;
+
+  row.querySelectorAll('.year-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const y = parseInt(btn.dataset.year);
+      if (activeYears.has(y)) activeYears.delete(y);
+      else activeYears.add(y);
+      render();
+    });
+  });
+}
+
+function renderVenues() {
+  const container = document.getElementById('venueContainer');
+  if (activeCategory !== 'conference' && activeCategory !== 'workshop' && activeCategory !== 'journal') {
+    container.innerHTML = '';
+    return;
+  }
+  const venues = getVenuesForCategory(activeCategory);
+  if (venues.length === 0) { container.innerHTML = ''; return; }
+
+  let html = '<div class="venue-row"><span class="venue-row-label">Venue</span>';
+  venues.forEach(([v, c]) => {
+    const active = activeVenue === v ? ' active' : '';
+    html += `<button class="venue-tag${active}" data-venue="${v}">${v} <span style="opacity:0.55">${c}</span></button>`;
+  });
+  html += '</div>';
+  container.innerHTML = html;
+
+  container.querySelectorAll('.venue-tag').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeVenue = activeVenue === btn.dataset.venue ? null : btn.dataset.venue;
+      render();
+    });
+  });
+}
+
+function renderPapers() {
+  const container = document.getElementById('papersContainer');
+  const filtered = getFilteredPapers();
+
+  document.getElementById('resultsInfo').innerHTML =
+    `Showing <strong>${filtered.length}</strong> of ${PAPERS.length} publications`;
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="no-results"><p>No publications match your filters.</p></div>';
+    return;
+  }
+
+  const byYear = {};
+  filtered.forEach(p => {
+    if (!byYear[p.year]) byYear[p.year] = [];
+    byYear[p.year].push(p);
+  });
+
+  let html = '';
+  const years = Object.keys(byYear).sort((a,b) => b - a);
+  years.forEach(year => {
+    html += `<div class="year-group"><h2 class="year-heading">${year}</h2>`;
+    byYear[year].forEach((p, i) => {
+      const titleLink = p.url
+        ? `<a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a>`
+        : esc(p.title);
+      const catClass = 'cat-' + p.category;
+      html += `<div class="paper" style="animation-delay:${i * 0.025}s">
+        <div class="paper-title">${titleLink}</div>
+        <div class="paper-authors">${esc(p.authors)}</div>
+        <div class="paper-meta">
+          <span class="paper-category ${catClass}">${catPaperLabels[p.category] || p.category}</span>
+          <span class="paper-venue">${esc(p.venue)}</span>
+          <button class="edit-btn" onclick="openEdit(${PAPERS.indexOf(p)})" title="Edit"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z"/></svg>Edit</button>
+          <a class="scholar-btn" href="${scholarUrl(p.title)}" target="_blank" rel="noopener" title="Search on Google Scholar">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3z" fill="#4285f4"/><circle cx="12" cy="13" r="3.5" fill="#4285f4" opacity="0.55"/></svg>
+            Scholar
+          </a>
+        </div>
+      </div>`;
+    });
+    html += '</div>';
+  });
+  container.innerHTML = html;
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function render() {
+  renderFilters();
+  renderYears();
+  renderVenues();
+  renderPapers();
+  const si = document.getElementById('searchInput');
+  if (si && searchQuery) {
+    si.focus();
+    si.setSelectionRange(si.value.length, si.value.length);
+  }
+}
+
+
+// ===== CRUD Modal Logic =====
+let editingIndex = -1; // -1 means adding new
+
+function openAdd() {
+  editingIndex = -1;
+  document.getElementById('modalTitle').textContent = 'Add Publication';
+  document.getElementById('fTitle').value = '';
+  document.getElementById('fAuthors').value = '';
+  document.getElementById('fYear').value = new Date().getFullYear();
+  document.getElementById('fCategory').value = 'conference';
+  document.getElementById('fVenue').value = '';
+  document.getElementById('fDoi').value = '';
+  document.getElementById('fUrl').value = '';
+  document.getElementById('btnDelete').classList.add('hidden');
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function openEdit(idx) {
+  editingIndex = idx;
+  const p = PAPERS[idx];
+  document.getElementById('modalTitle').textContent = 'Edit Publication';
+  document.getElementById('fTitle').value = p.title;
+  document.getElementById('fAuthors').value = p.authors;
+  document.getElementById('fYear').value = p.year;
+  document.getElementById('fCategory').value = p.category;
+  document.getElementById('fVenue').value = p.venue;
+  document.getElementById('fDoi').value = p.doi || '';
+  document.getElementById('fUrl').value = p.url || '';
+  document.getElementById('btnDelete').classList.remove('hidden');
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function savePaper() {
+  const title = document.getElementById('fTitle').value.trim();
+  const authors = document.getElementById('fAuthors').value.trim();
+  const year = parseInt(document.getElementById('fYear').value);
+  const category = document.getElementById('fCategory').value;
+  const venue = document.getElementById('fVenue').value.trim();
+  const doi = document.getElementById('fDoi').value.trim();
+  const url = document.getElementById('fUrl').value.trim();
+
+  if (!title || !authors || !year || !venue) {
+    alert('Please fill in Title, Authors, Year, and Venue.');
+    return;
+  }
+
+  const paper = {
+    title, authors, year, venue,
+    venue_full: venue,
+    category, doi, url
+  };
+
+  if (editingIndex === -1) {
+    PAPERS.push(paper);
+  } else {
+    PAPERS[editingIndex] = paper;
+  }
+
+  PAPERS.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+  savePapersToStorage();
+  closeModal();
+  refreshDerivedData();
+  render();
+}
+
+function deletePaper() {
+  if (editingIndex < 0) return;
+  const p = PAPERS[editingIndex];
+  if (!confirm(`Delete "${p.title}"?`)) return;
+  PAPERS.splice(editingIndex, 1);
+  savePapersToStorage();
+  closeModal();
+  refreshDerivedData();
+  render();
+}
+
+// Close modal on overlay click
+document.getElementById('modalOverlay').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// Persist to storage
+function savePapersToStorage() {
+  try {
+    localStorage.setItem('adix-papers', JSON.stringify(PAPERS));
+  } catch(e) { /* localStorage not available */ }
+}
+
+async function loadPapersFromStorage() {
+  // 1. Fetch base data from papers.json
+  let basePapers = [];
+  try {
+    const resp = await fetch('papers.json');
+    if (resp.ok) basePapers = await resp.json();
+  } catch(e) { /* fetch failed, will use localStorage only */ }
+
+  // 2. Check localStorage for edits
+  try {
+    const stored = localStorage.getItem('adix-papers');
+    if (stored) {
+      const parsed = JSON.parse(stored);
+      PAPERS.length = 0;
+      parsed.forEach(p => PAPERS.push(p));
+    } else if (basePapers.length > 0) {
+      PAPERS.length = 0;
+      basePapers.forEach(p => PAPERS.push(p));
+    }
+  } catch(e) {
+    if (basePapers.length > 0) {
+      PAPERS.length = 0;
+      basePapers.forEach(p => PAPERS.push(p));
+    }
+  }
+
+  refreshDerivedData();
+  renderStats();
+  render();
+}
+
+function refreshDerivedData() {
+  allYears.length = 0;
+  [...new Set(PAPERS.map(p => p.year))].sort((a,b) => b - a).forEach(y => allYears.push(y));
+}
+
+function exportJSON(e) {
+  e.preventDefault();
+  const blob = new Blob([JSON.stringify(PAPERS, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'papers.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+loadPapersFromStorage();
+</script>
+</body>
+</html>

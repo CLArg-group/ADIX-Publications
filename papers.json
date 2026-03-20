@@ -1,0 +1,1132 @@
+[
+  {
+    "title": "ArgLLM-App: an interactive system for argumentative reasoning with large language models",
+    "authors": "Dejl A, Gorur D, Toni F",
+    "year": 2026,
+    "venue": "AAMAS 2026",
+    "venue_full": "AAMAS 2026",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Strength change explanations in quantitative argumentation",
+    "authors": "Kampik T, Yin X, Potyka N, Toni F",
+    "year": 2026,
+    "venue": "AAMAS 2026",
+    "venue_full": "AAMAS 2026",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs",
+    "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Son Tran, Francesca Toni, William Yeoh",
+    "year": 2025,
+    "venue": "KR 2025",
+    "venue_full": "Proceedings of the 22nd International Conference on Principles of Knowledge Representation and Reasoning, KR 2025, Melbourne, Australia, November 1-17, 2025",
+    "category": "conference",
+    "doi": "10.24963/KR.2025/49",
+    "url": "https://doi.org/10.24963/kr.2025/49"
+  },
+  {
+    "title": "ADA-X: An Online System for Fully Automated, Explainable Review Aggregation",
+    "authors": "Lingjun Gao, Hafizh Muyassar, Yeva Hunanyan, Shane Pongpanich, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "ECAI 2025",
+    "venue_full": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
+    "category": "conference",
+    "doi": "10.3233/FAIA251444",
+    "url": "https://doi.org/10.3233/FAIA251444"
+  },
+  {
+    "title": "Aggregating bipolar opinions through bipolar assumption-based argumentation",
+    "authors": "Charles Dickie, Stefan Lauren, Francesco Belardinelli, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "Autonomous Agents and Multi-Agent Systems",
+    "venue_full": "Auton. Agents Multi Agent Syst.",
+    "category": "journal",
+    "doi": "10.1007/S10458-024-09684-3",
+    "url": "https://doi.org/10.1007/s10458-024-09684-3"
+  },
+  {
+    "title": "Argtumour: integrating large language models and computational argumentation to discuss treatment options for high-grade glioma",
+    "authors": "Dejl A, Ayoobi H, Cherrington C, Gardner D, Toni F, Pakzad-Shahabi L, Williams M",
+    "year": 2025,
+    "venue": "Neuro-Oncology",
+    "venue_full": "Neuro-Oncology, Vol 27, Supplement_2, p.ii26",
+    "category": "journal",
+    "doi": "10.1093/neuonc/noaf185.104",
+    "url": "https://doi.org/10.1093/neuonc/noaf185.104"
+  },
+  {
+    "title": "Argumentative Debates for Transparent Bias Detection [Technical Report]",
+    "authors": "Hamed Ayoobi, Nico Potyka, Anna Rapberger, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2508.04511",
+    "url": "https://doi.org/10.48550/arXiv.2508.04511"
+  },
+  {
+    "title": "Argumentative LLMs for Legal Information Entailment",
+    "authors": "Charlie Lindsay, Francesca Toni, Tien Dat Nguyen, Tan Minh Nguyen, Trang Pham Ngoc Anh, Quang-Huy Chu, Hoang Nhat Nguyen, Le Minh Nguyen",
+    "year": 2025,
+    "venue": "JURIX 2025",
+    "venue_full": "Legal Knowledge and Information Systems - JURIX 2025: The Thirty-eighth Annual Conference, Turin, Italy, 9-11 December 2025",
+    "category": "conference",
+    "doi": "10.3233/FAIA251582",
+    "url": "https://doi.org/10.3233/FAIA251582"
+  },
+  {
+    "title": "Argumentative Large Language Models for Explainable and Contestable Claim Verification",
+    "authors": "Gabriel Freedman, Adam Dejl, Deniz Gorur, Xiang Yin, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "AAAI 2025",
+    "venue_full": "Thirty-Ninth AAAI Conference on Artificial Intelligence, Thirty-Seventh Conference on Innovative Applications of Artificial Intelligence, Fifteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2025, Philadelphia, PA, USA, February 25 - March 4, 2025",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V39I14.33637",
+    "url": "https://doi.org/10.1609/aaai.v39i14.33637"
+  },
+  {
+    "title": "Argumentative review aggregation and dialogical explanations",
+    "authors": "Antonio Rago, Oana Cocarascu, Joel Oksanen, Francesca Toni",
+    "year": 2025,
+    "venue": "Artificial Intelligence",
+    "venue_full": "Artif. Intell.",
+    "category": "journal",
+    "doi": "10.1016/J.ARTINT.2025.104291",
+    "url": "https://doi.org/10.1016/j.artint.2025.104291"
+  },
+  {
+    "title": "Argumentatively Coherent Judgmental Forecasting",
+    "authors": "Deniz Gorur, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "ECAI 2025",
+    "venue_full": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
+    "category": "conference",
+    "doi": "10.3233/FAIA250997",
+    "url": "https://doi.org/10.3233/FAIA250997"
+  },
+  {
+    "title": "Can Large Language Models perform Relation-based Argument Mining?",
+    "authors": "Deniz Gorur, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "COLING 2025",
+    "venue_full": "Proceedings of the 31st International Conference on Computational Linguistics, COLING 2025, Abu Dhabi, UAE, January 19-24, 2025",
+    "category": "conference",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.coling-main.569/"
+  },
+  {
+    "title": "Counterfactual Explanations Under Model Multiplicity and Their Use in Computational Argumentation",
+    "authors": "Gianvincenzo Alfano, Adam Gould, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "IJCAI 2025",
+    "venue_full": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI 2025, Montreal, Canada, August 16-22, 2025",
+    "category": "conference",
+    "doi": "10.24963/IJCAI.2025/481",
+    "url": "https://doi.org/10.24963/ijcai.2025/481"
+  },
+  {
+    "title": "Evaluating Uncertainty Quantification Methods in Argumentative Large Language Models",
+    "authors": "Kevin Zhou, Adam Dejl, Gabriel Freedman, Lihu Chen, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "EMNLP 2025",
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2025, Suzhou, China, November 4-9, 2025",
+    "category": "conference",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1184/"
+  },
+  {
+    "title": "Explainable AI, energy and critical infrastructure systems",
+    "authors": "Francesco Leofante, Andre Artelt, Demetrios G. Eliades, Anna Korre, Francesca Toni, Tim Miller",
+    "year": 2025,
+    "venue": "AI Magazine",
+    "venue_full": "AI Mag.",
+    "category": "journal",
+    "doi": "10.1002/AAAI.70033",
+    "url": "https://doi.org/10.1002/aaai.70033"
+  },
+  {
+    "title": "Explainable Prediction of the Mechanical Properties of Composites with CNNs",
+    "authors": "Varun Raaghav, Dimitrios Bikos, Antonio Rago, Francesca Toni, Maria Charalambides",
+    "year": 2025,
+    "venue": "ECAI 2025",
+    "venue_full": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
+    "category": "conference",
+    "doi": "10.3233/FAIA251455",
+    "url": "https://doi.org/10.3233/FAIA251455"
+  },
+  {
+    "title": "Exploring the Effect of Explanation Content and Format on User Comprehension and Trust in Healthcare",
+    "authors": "Antonio Rago, Bence Palfi, Purin Sukpanichnant, Kavyesh Vivek, Hannibal Nabli, Olga Kostopoulou, James Kinross, Francesca Toni",
+    "year": 2025,
+    "venue": "ECAI 2025",
+    "venue_full": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
+    "category": "conference",
+    "doi": "10.3233/FAIA251479",
+    "url": "https://doi.org/10.3233/FAIA251479"
+  },
+  {
+    "title": "Exploring the Potential for Large Language Models to Demonstrate Rational Probabilistic Beliefs",
+    "authors": "Gabriel Freedman, Francesca Toni",
+    "year": 2025,
+    "venue": "FLAIRS 2025",
+    "venue_full": "Proceedings of the 38th International Florida Artificial Intelligence Research Society Conference, FLAIRS 2025, Daytona Beach, FL, USA, May 20-23, 2025",
+    "category": "conference",
+    "doi": "10.32473/FLAIRS.38.1.138892",
+    "url": "https://doi.org/10.32473/flairs.38.1.138892"
+  },
+  {
+    "title": "Free Argumentative Exchanges for Explaining Image Classifiers",
+    "authors": "Avinash Kori, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "AAMAS 2025",
+    "venue_full": "Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2025, Detroit, MI, USA, May 19-23, 2025",
+    "category": "conference",
+    "doi": "10.5555/3709347.3743638",
+    "url": "https://dl.acm.org/doi/10.5555/3709347.3743638"
+  },
+  {
+    "title": "Greedy ABA Learning for Case-Based Reasoning",
+    "authors": "Emanuele De Angelis, Maurizio Proietti, Francesca Toni",
+    "year": 2025,
+    "venue": "AAMAS 2025",
+    "venue_full": "Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2025, Detroit, MI, USA, May 19-23, 2025",
+    "category": "conference",
+    "doi": "10.5555/3709347.3743571",
+    "url": "https://dl.acm.org/doi/10.5555/3709347.3743571"
+  },
+  {
+    "title": "Heterogeneous Graph Neural Networks for Assumption-Based Argumentation",
+    "authors": "Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2511.08982",
+    "url": "https://doi.org/10.48550/arXiv.2511.08982"
+  },
+  {
+    "title": "Heterogeneous Graph Neural Networks for Credulous Acceptance of Assumptions in ABA",
+    "authors": "Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni",
+    "year": 2025,
+    "venue": "Arg&App 2025",
+    "venue_full": "Proceedings of the Second International Workshop on Argumentation and Applications (Arg&App 2025), Melbourne, Australia, November 11, 2025",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://hal.science/hal-05339535/document#page=16"
+  },
+  {
+    "title": "Heterogeneous graph neural networks with post-hoc explanations for multi-modal and explainable land use inference",
+    "authors": "Xuehao Zhai, Junqi Jiang, Adam Dejl, Antonio Rago, Fangce Guo, Francesca Toni, Aruna Sivakumar",
+    "year": 2025,
+    "venue": "Information Fusion",
+    "venue_full": "Inf. Fusion",
+    "category": "journal",
+    "doi": "10.1016/J.INFFUS.2025.103057",
+    "url": "https://doi.org/10.1016/j.inffus.2025.103057"
+  },
+  {
+    "title": "Hidden Conflicts in Neural Networks and their Implications for Explainability",
+    "authors": "Adam Dejl, Dekai Zhang, Hamed Ayoobi, Matthew Williams, Francesca Toni",
+    "year": 2025,
+    "venue": "FAccT 2025",
+    "venue_full": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency, FAccT 2025, Athens, Greece, June 23-26, 2025",
+    "category": "conference",
+    "doi": "10.1145/3715275.3732100",
+    "url": "https://doi.org/10.1145/3715275.3732100"
+  },
+  {
+    "title": "Identifying Query-Relevant Neurons in Large Language Models for Long-Form Texts",
+    "authors": "Lihu Chen, Adam Dejl, Francesca Toni",
+    "year": 2025,
+    "venue": "AAAI 2025",
+    "venue_full": "Thirty-Ninth AAAI Conference on Artificial Intelligence, Thirty-Seventh Conference on Innovative Applications of Artificial Intelligence, Fifteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2025, Philadelphia, PA, USA, February 25 - March 4, 2025",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V39I22.34529",
+    "url": "https://doi.org/10.1609/aaai.v39i22.34529"
+  },
+  {
+    "title": "Learning to Contest Argumentative Claims",
+    "authors": "Emanuele De Angelis, Maurizio Proietti, Francesca Toni",
+    "year": 2025,
+    "venue": "RuleML+RR 2025",
+    "venue_full": "Rules and Reasoning - 9th International Joint Conference, RuleML+RR 2025, Istanbul, Turkey, September 22-24, 2025, Proceedings",
+    "category": "conference",
+    "doi": "10.1007/978-3-032-08887-1_15",
+    "url": "https://doi.org/10.1007/978-3-032-08887-1_15"
+  },
+  {
+    "title": "Neuro-Argumentative Learning with Case-Based Reasoning",
+    "authors": "Adam Gould, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2505.15742",
+    "url": "https://doi.org/10.48550/arXiv.2505.15742"
+  },
+  {
+    "title": "Object-Centric Case-Based Reasoning via Argumentation",
+    "authors": "Gabriel de Olim Gaul, Adam Gould, Avinash Kori, Francesca Toni",
+    "year": 2025,
+    "venue": "ArgXAI 2025",
+    "venue_full": "Proceedings of the 3rd International Workshop on Argumentation for eXplainable AI (ArgXAI 2025) co-located with the 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-4066/paper_5.pdf"
+  },
+  {
+    "title": "Object-Centric Neuro-Argumentative Learning",
+    "authors": "Abdul Rahman Jacob, Avinash Kori, Emanuele De Angelis, Ben Glocker, Maurizio Proietti, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2506.14577",
+    "url": "https://doi.org/10.48550/arXiv.2506.14577"
+  },
+  {
+    "title": "On Gradual Semantics for Assumption-Based Argumentation",
+    "authors": "Anna Rapberger, Fabrizio Russo, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "KR 2025",
+    "venue_full": "Proceedings of the 22nd International Conference on Principles of Knowledge Representation and Reasoning, KR 2025, Melbourne, Australia, November 1-17, 2025",
+    "category": "conference",
+    "doi": "10.24963/KR.2025/50",
+    "url": "https://doi.org/10.24963/kr.2025/50"
+  },
+  {
+    "title": "On Independence and SCC-Recursiveness in Assumption-Based Argumentation",
+    "authors": "Lydia Blumel, Anna Rapberger, Matthias Thimm, Francesca Toni",
+    "year": 2025,
+    "venue": "IJCAI 2025",
+    "venue_full": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI 2025, Montreal, Canada, August 16-22, 2025",
+    "category": "conference",
+    "doi": "10.24963/IJCAI.2025/488",
+    "url": "https://doi.org/10.24963/ijcai.2025/488"
+  },
+  {
+    "title": "On the Impact of Sparsification on Quantitative Argumentative Explanations in Neural Networks",
+    "authors": "Daniel Peacock, Mansi, Nico Potyka, Francesca Toni, Xiang Yin",
+    "year": 2025,
+    "venue": "ArgXAI 2025",
+    "venue_full": "Proceedings of the 3rd International Workshop on Argumentation for eXplainable AI (ArgXAI 2025) co-located with the 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-4066/paper_4.pdf"
+  },
+  {
+    "title": "ProtoArgNet: Interpretable Image Classification with Super-Prototypes and Argumentation",
+    "authors": "Hamed Ayoobi, Nico Potyka, Francesca Toni",
+    "year": 2025,
+    "venue": "AAAI 2025",
+    "venue_full": "Thirty-Ninth AAAI Conference on Artificial Intelligence, Thirty-Seventh Conference on Innovative Applications of Artificial Intelligence, Fifteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2025, Philadelphia, PA, USA, February 25 - March 4, 2025",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V39I2.32173",
+    "url": "https://doi.org/10.1609/aaai.v39i2.32173"
+  },
+  {
+    "title": "Representation Consistency for Accurate and Coherent LLM Answer Aggregation",
+    "authors": "Junqi Jiang, Tom Bewley, Salim I. Amoukou, Francesco Leofante, Antonio Rago, Saumitra Mishra, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2506.21590",
+    "url": "https://doi.org/10.48550/arXiv.2506.21590"
+  },
+  {
+    "title": "Shapley-PC: Constraint-based Causal Structure Learning with a Shapley Inspired Framework",
+    "authors": "Fabrizio Russo, Francesca Toni",
+    "year": 2025,
+    "venue": "CLeaR 2025",
+    "venue_full": "Causal Learning and Reasoning, Lausanne, Switzerland, 7-9 May 2025",
+    "category": "conference",
+    "doi": "",
+    "url": "https://proceedings.mlr.press/v275/russo25a.html"
+  },
+  {
+    "title": "Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders",
+    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2510.04855",
+    "url": "https://doi.org/10.48550/arXiv.2510.04855"
+  },
+  {
+    "title": "Using computational argumentation to integrate activity and quality of life data to predict disease progression in patients with high-grade glioma",
+    "authors": "Williams M, Dejl A, Toni F et al.",
+    "year": 2025,
+    "venue": "Neuro-Oncology",
+    "venue_full": "Neuro-Oncology (medical journal/conference abstract)",
+    "category": "journal",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "XAI-Units: Benchmarking Explainability Methods with Unit Tests",
+    "authors": "Jun Rui Lee, Sadegh Emami, Michael David Hollins, Timothy C. H. Wong, Carlos Ignacio Villalobos Sanchez, Francesca Toni, Dekai Zhang, Adam Dejl",
+    "year": 2025,
+    "venue": "FAccT 2025",
+    "venue_full": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency, FAccT 2025, Athens, Greece, June 23-26, 2025",
+    "category": "conference",
+    "doi": "10.1145/3715275.3732186",
+    "url": "https://doi.org/10.1145/3715275.3732186"
+  },
+  {
+    "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
+    "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Francesca Toni, Tran Cao Son, William Yeoh",
+    "year": 2024,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2410.22209",
+    "url": "https://doi.org/10.48550/arXiv.2410.22209"
+  },
+  {
+    "title": "A little of that human touch: achieving human-centric explainable AI via argumentation",
+    "authors": "Rago A, Toni F",
+    "year": 2024,
+    "venue": "IJCAI 2024",
+    "venue_full": "IJCAI 2024 (Invited/Survey Paper)",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Analyzing Key Neurons in Large Language Models",
+    "authors": "Lihu Chen, Adam Dejl, Francesca Toni",
+    "year": 2024,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2406.10868",
+    "url": "https://doi.org/10.48550/arXiv.2406.10868"
+  },
+  {
+    "title": "Applying Attribution Explanations in Truth-Discovery Quantitative Bipolar Argumentation Frameworks",
+    "authors": "Xiang Yin, Nico Potyka, Francesca Toni",
+    "year": 2024,
+    "venue": "ArgXAI 2024",
+    "venue_full": "Proceedings of the 2nd International Workshop on Argumentation for eXplainable AI co-located with the 10th International Conference on Computational Models of Argument (COMMA 2024), Hagen, Germany, September 16, 2024",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3768/paper5.pdf"
+  },
+  {
+    "title": "Argumentation and machine learning",
+    "authors": "Rago A, Toni F et al.",
+    "year": 2024,
+    "venue": "Handbook of Formal Argumentation",
+    "venue_full": "Handbook of Formal Argumentation, Vol 2 (book chapter)",
+    "category": "book_chapter",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Argumentative Causal Discovery",
+    "authors": "Fabrizio Russo, Anna Rapberger, Francesca Toni",
+    "year": 2024,
+    "venue": "KR 2024",
+    "venue_full": "Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning, KR 2024, Hanoi, Vietnam. November 2-8, 2024",
+    "category": "conference",
+    "doi": "10.24963/KR.2024/88",
+    "url": "https://doi.org/10.24963/kr.2024/88"
+  },
+  {
+    "title": "Argumentative Interpretable Image Classification",
+    "authors": "Hamed Ayoobi, Nico Potyka, Francesca Toni",
+    "year": 2024,
+    "venue": "ArgXAI 2024",
+    "venue_full": "Proceedings of the 2nd International Workshop on Argumentation for eXplainable AI co-located with the 10th International Conference on Computational Models of Argument (COMMA 2024), Hagen, Germany, September 16, 2024",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3768/paper4.pdf"
+  },
+  {
+    "title": "Argumentative Large Language Models for Explainable and Contestable Decision-Making",
+    "authors": "Gabriel Freedman, Adam Dejl, Deniz Gorur, Xiang Yin, Antonio Rago, Francesca Toni",
+    "year": 2024,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2405.02079",
+    "url": "https://doi.org/10.48550/arXiv.2405.02079"
+  },
+  {
+    "title": "CE-QArg: Counterfactual Explanations for Quantitative Bipolar Argumentation Frameworks",
+    "authors": "Xiang Yin, Nico Potyka, Francesca Toni",
+    "year": 2024,
+    "venue": "KR 2024",
+    "venue_full": "Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning, KR 2024, Hanoi, Vietnam. November 2-8, 2024",
+    "category": "conference",
+    "doi": "10.24963/KR.2024/66",
+    "url": "https://doi.org/10.24963/kr.2024/66"
+  },
+  {
+    "title": "Contestable AI Needs Computational Argumentation",
+    "authors": "Francesco Leofante, Hamed Ayoobi, Adam Dejl, Gabriel Freedman, Deniz Gorur, Junqi Jiang, Guilherme Paulino-Passos, Antonio Rago, Anna Rapberger, Fabrizio Russo, Xiang Yin, Dekai Zhang, Francesca Toni",
+    "year": 2024,
+    "venue": "KR 2024",
+    "venue_full": "Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning, KR 2024, Hanoi, Vietnam. November 2-8, 2024",
+    "category": "conference",
+    "doi": "10.24963/KR.2024/83",
+    "url": "https://doi.org/10.24963/kr.2024/83"
+  },
+  {
+    "title": "Contribution functions for quantitative bipolar argumentation graphs: A principle-based analysis",
+    "authors": "Timotheus Kampik, Nico Potyka, Xiang Yin, Kristijonas Cyras, Francesca Toni",
+    "year": 2024,
+    "venue": "International Journal of Approximate Reasoning",
+    "venue_full": "Int. J. Approx. Reason.",
+    "category": "journal",
+    "doi": "10.1016/J.IJAR.2024.109255",
+    "url": "https://doi.org/10.1016/j.ijar.2024.109255"
+  },
+  {
+    "title": "Detecting Scientific Fraud Using Argument Mining",
+    "authors": "Gabriel Freedman, Francesca Toni",
+    "year": 2024,
+    "venue": "ArgMining 2024",
+    "venue_full": "Proceedings of the 11th Workshop on Argument Mining, ArgMining 2024, Bangkok, Thailand, August 15, 2024",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.argmining-1.2"
+  },
+  {
+    "title": "Dialectical Reconciliation via Structured Argumentative Dialogues",
+    "authors": "Stylianos Loukas Vasileiou, Ashwin Kumar, William Yeoh, Tran Cao Son, Francesca Toni",
+    "year": 2024,
+    "venue": "KR 2024",
+    "venue_full": "Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning, KR 2024, Hanoi, Vietnam. November 2-8, 2024",
+    "category": "conference",
+    "doi": "10.24963/KR.2024/73",
+    "url": "https://doi.org/10.24963/kr.2024/73"
+  },
+  {
+    "title": "Explaining Arguments' Strength: Unveiling the Role of Attacks and Supports",
+    "authors": "Xiang Yin, Nico Potyka, Francesca Toni",
+    "year": 2024,
+    "venue": "IJCAI 2024",
+    "venue_full": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, IJCAI 2024, Jeju, South Korea, August 3-9, 2024",
+    "category": "conference",
+    "doi": "",
+    "url": "https://www.ijcai.org/proceedings/2024/401"
+  },
+  {
+    "title": "Explaining Arguments' Strength: Unveiling the Role of Attacks and Supports (Technical Report)",
+    "authors": "Xiang Yin, Nico Potyka, Francesca Toni",
+    "year": 2024,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2404.14304",
+    "url": "https://doi.org/10.48550/arXiv.2404.14304"
+  },
+  {
+    "title": "Explaining Image Classifiers with Visual Debates",
+    "authors": "Avinash Kori, Ben Glocker, Francesca Toni",
+    "year": 2024,
+    "venue": "DS 2024",
+    "venue_full": "Discovery Science - 27th International Conference, DS 2024, Pisa, Italy, October 14-16, 2024, Proceedings, Part II",
+    "category": "conference",
+    "doi": "10.1007/978-3-031-78980-9_13",
+    "url": "https://doi.org/10.1007/978-3-031-78980-9_13"
+  },
+  {
+    "title": "Instantiations and Computational Aspects of Non-Flat Assumption-based Argumentation",
+    "authors": "Tuomo Lehtonen, Anna Rapberger, Francesca Toni, Markus Ulbricht, Johannes P. Wallner",
+    "year": 2024,
+    "venue": "IJCAI 2024",
+    "venue_full": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, IJCAI 2024, Jeju, South Korea, August 3-9, 2024",
+    "category": "conference",
+    "doi": "",
+    "url": "https://www.ijcai.org/proceedings/2024/383"
+  },
+  {
+    "title": "Integrating User Preferences into Gradual Bipolar Argumentation for Personalised Decision Support",
+    "authors": "Elisa Battaglia, Pietro Baroni, Antonio Rago, Francesca Toni",
+    "year": 2024,
+    "venue": "SUM 2024",
+    "venue_full": "Scalable Uncertainty Management - 16th International Conference, SUM 2024, Palermo, Italy, November 27-29, 2024, Proceedings",
+    "category": "conference",
+    "doi": "10.1007/978-3-031-76235-2_2",
+    "url": "https://doi.org/10.1007/978-3-031-76235-2_2"
+  },
+  {
+    "title": "Interval abstractions for robust counterfactual explanations",
+    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2024,
+    "venue": "Artificial Intelligence",
+    "venue_full": "Artif. Intell.",
+    "category": "journal",
+    "doi": "10.1016/J.ARTINT.2024.104218",
+    "url": "https://doi.org/10.1016/j.artint.2024.104218"
+  },
+  {
+    "title": "Learning Brave Assumption-Based Argumentation Frameworks via ASP",
+    "authors": "Emanuele De Angelis, Maurizio Proietti, Francesca Toni",
+    "year": 2024,
+    "venue": "ECAI 2024",
+    "venue_full": "ECAI 2024 - 27th European Conference on Artificial Intelligence, 19-24 October 2024, Santiago de Compostela, Spain - Including 13th Conference on Prestigious Applications of Intelligent Systems (PAIS 2024)",
+    "category": "conference",
+    "doi": "10.3233/FAIA240896",
+    "url": "https://doi.org/10.3233/FAIA240896"
+  },
+  {
+    "title": "Non-flat ABA Is an Instance of Bipolar Argumentation",
+    "authors": "Markus Ulbricht, Nico Potyka, Anna Rapberger, Francesca Toni",
+    "year": 2024,
+    "venue": "AAAI 2024",
+    "venue_full": "Thirty-Eighth AAAI Conference on Artificial Intelligence, AAAI 2024, Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence, IAAI 2024, Fourteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2014, February 20-27, 2024, Vancouver, Canada",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V38I9.28944",
+    "url": "https://doi.org/10.1609/aaai.v38i9.28944"
+  },
+  {
+    "title": "On Computing Admissibility in ABA",
+    "authors": "Tuomo Lehtonen, Anna Rapberger, Francesca Toni, Markus Ulbricht, Johannes P. Wallner",
+    "year": 2024,
+    "venue": "COMMA 2024",
+    "venue_full": "Computational Models of Argument - Proceedings of COMMA 2024, Hagen, Germany, September 18-20, 2024",
+    "category": "conference",
+    "doi": "10.3233/FAIA240315",
+    "url": "https://doi.org/10.3233/FAIA240315"
+  },
+  {
+    "title": "On the Correspondence of Non-flat Assumption-based Argumentation and Logic Programming with Negation as Failure in the Head",
+    "authors": "Anna Rapberger, Markus Ulbricht, Francesca Toni",
+    "year": 2024,
+    "venue": "NMR 2024",
+    "venue_full": "Proceedings of the 22nd International Workshop on Nonmonotonic Reasoning (NMR 2024) co-located with 21st International Conference on Principles of Knowledge Representation and Reasoning (KR 2024), Hanoi, Vietnam, November 2-4, 2024",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3835/paper12.pdf"
+  },
+  {
+    "title": "On the Robustness of Argumentative Explanations",
+    "authors": "Anna Rapberger, Francesca Toni",
+    "year": 2024,
+    "venue": "COMMA 2024",
+    "venue_full": "Computational Models of Argument - Proceedings of COMMA 2024, Hagen, Germany, September 18-20, 2024",
+    "category": "conference",
+    "doi": "10.3233/FAIA240323",
+    "url": "https://doi.org/10.3233/FAIA240323"
+  },
+  {
+    "title": "On the expressive power of assumption-based argumentation",
+    "authors": "Rapberger A, Toni F, Ulbricht M",
+    "year": 2024,
+    "venue": "COMMA 2024",
+    "venue_full": "Likely KR or COMMA 2024",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "PeerArg: Argumentative Peer Review with LLMs",
+    "authors": "Purin Sukpanichnant, Anna Rapberger, Francesca Toni",
+    "year": 2024,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2409.16813",
+    "url": "https://doi.org/10.48550/arXiv.2409.16813"
+  },
+  {
+    "title": "Predicting Human Judgement in Online Debates with Argumentation",
+    "authors": "Beauty Oluokun, Guilherme Paulino-Passos, Antonio Rago, Francesca Toni",
+    "year": 2024,
+    "venue": "CMNA 2024",
+    "venue_full": "Proceedings of the 24th Workshop on Computational Models of Natural Argument co-located with 10th International Conference on Computational Models of Argument (COMMA 2024), Hagen, Germany, September 17th 2024",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3769/paper9.pdf"
+  },
+  {
+    "title": "Preference-Based Abstract Argumentation for Case-Based Reasoning",
+    "authors": "Adam Gould, Guilherme Paulino-Passos, Seema Dadhania, Matthew Williams, Francesca Toni",
+    "year": 2024,
+    "venue": "KR 2024",
+    "venue_full": "Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning, KR 2024, Hanoi, Vietnam. November 2-8, 2024",
+    "category": "conference",
+    "doi": "10.24963/KR.2024/37",
+    "url": "https://doi.org/10.24963/kr.2024/37"
+  },
+  {
+    "title": "Recourse under Model Multiplicity via Argumentative Ensembling",
+    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2024,
+    "venue": "AAMAS 2024",
+    "venue_full": "Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2024, Auckland, New Zealand, May 6-10, 2024",
+    "category": "conference",
+    "doi": "10.5555/3635637.3662950",
+    "url": "https://dl.acm.org/doi/10.5555/3635637.3662950"
+  },
+  {
+    "title": "Redefining ABA+ semantics via abstract set-to-set attacks",
+    "authors": "Rapberger A, Ulbricht M, Toni F",
+    "year": 2024,
+    "venue": "COMMA 2024",
+    "venue_full": "Likely COMMA 2024 or workshop",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Robust Counterfactual Explanations in Machine Learning: A Survey",
+    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2024,
+    "venue": "IJCAI 2024",
+    "venue_full": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, IJCAI 2024, Jeju, South Korea, August 3-9, 2024",
+    "category": "conference",
+    "doi": "",
+    "url": "https://www.ijcai.org/proceedings/2024/894"
+  },
+  {
+    "title": "Targeted Activation Penalties Help CNNs Ignore Spurious Signals",
+    "authors": "Dekai Zhang, Matt Williams, Francesca Toni",
+    "year": 2024,
+    "venue": "AAAI 2024",
+    "venue_full": "Thirty-Eighth AAAI Conference on Artificial Intelligence, AAAI 2024, Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence, IAAI 2024, Fourteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2014, February 20-27, 2024, Vancouver, Canada",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V38I15.29610",
+    "url": "https://doi.org/10.1609/aaai.v38i15.29610"
+  },
+  {
+    "title": "Towards a Framework for Evaluating Explanations in Automated Fact Verification",
+    "authors": "Neema Kotonya, Francesca Toni",
+    "year": 2024,
+    "venue": "COLING 2024",
+    "venue_full": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation, LREC/COLING 2024, 20-25 May, 2024, Torino, Italy",
+    "category": "conference",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.lrec-main.1422"
+  },
+  {
+    "title": "A Dataset of Contractual Events in Court Decisions",
+    "authors": "Guilherme Paulino-Passos, Ken Satoh, Francesca Toni",
+    "year": 2023,
+    "venue": "ICLP Workshops 2023",
+    "venue_full": "Proceedings of the International Conference on Logic Programming 2023 Workshops co-located with the 39th International Conference on Logic Programming (ICLP 2023), London, United Kingdom, July 9th and 10th, 2023",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3437/paper3LPLR.pdf"
+  },
+  {
+    "title": "A Roadmap for Neuro-argumentative Learning",
+    "authors": "Maurizio Proietti, Francesca Toni",
+    "year": 2023,
+    "venue": "NeSy 2023",
+    "venue_full": "Proceedings of the 17th International Workshop on Neural-Symbolic Learning and Reasoning, La Certosa di Pontignano, Siena, Italy, July 3-5, 2023",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3432/paper1.pdf"
+  },
+  {
+    "title": "A negation detection assessment of GPTs: analysis with the xNot360 dataset",
+    "authors": "Ha-Thanh Nguyen, Randy Goebel, Francesca Toni, Kostas Stathis, Ken Satoh",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2306.16638",
+    "url": "https://doi.org/10.48550/arXiv.2306.16638"
+  },
+  {
+    "title": "ABA Learning via ASP",
+    "authors": "Emanuele De Angelis, Maurizio Proietti, Francesca Toni",
+    "year": 2023,
+    "venue": "ICLP 2023",
+    "venue_full": "Proceedings 39th International Conference on Logic Programming, ICLP 2023, Imperial College London, UK, 9th July 2023 - 15th July 2023",
+    "category": "conference",
+    "doi": "10.4204/EPTCS.385.1",
+    "url": "https://doi.org/10.4204/EPTCS.385.1"
+  },
+  {
+    "title": "ABALearn: An Automated Logic-Based Learning System for ABA Frameworks",
+    "authors": "Cristina Tirsi, Maurizio Proietti, Francesca Toni",
+    "year": 2023,
+    "venue": "AIxIA 2023",
+    "venue_full": "AIxIA 2023 - Advances in Artificial Intelligence - XXIInd International Conference of the Italian Association for Artificial Intelligence, AIxIA 2023, Rome, Italy, November 6-9, 2023, Proceedings",
+    "category": "conference",
+    "doi": "10.1007/978-3-031-47546-7_1",
+    "url": "https://doi.org/10.1007/978-3-031-47546-7_1"
+  },
+  {
+    "title": "Achieving descriptive accuracy in explanations via argumentation: The case of probabilistic classifiers",
+    "authors": "Emanuele Albini, Antonio Rago, Pietro Baroni, Francesca Toni",
+    "year": 2023,
+    "venue": "Frontiers in Artificial Intelligence",
+    "venue_full": "Frontiers Artif. Intell.",
+    "category": "journal",
+    "doi": "10.3389/FRAI.2023.1099407",
+    "url": "https://doi.org/10.3389/frai.2023.1099407"
+  },
+  {
+    "title": "ArguCast: A System for Online Multi-Forecasting with Gradual Argumentation",
+    "authors": "Deniz Gorur, Antonio Rago, Francesca Toni",
+    "year": 2023,
+    "venue": "Arg&App 2023",
+    "venue_full": "Proceedings of the First International Workshop on Argumentation and Applications co-located with 20th International Conference on Principles of Knowledge Representation and Reasoning (KR 2023), Rhodes, Greece, September 2-8, 2023",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3472/paper3.pdf"
+  },
+  {
+    "title": "Argument Attribution Explanations in Quantitative Bipolar Argumentation Frameworks",
+    "authors": "Xiang Yin, Nico Potyka, Francesca Toni",
+    "year": 2023,
+    "venue": "ECAI 2023",
+    "venue_full": "ECAI 2023 - 26th European Conference on Artificial Intelligence, September 30 - October 4, 2023, Krakow, Poland - Including 12th Conference on Prestigious Applications of Intelligent Systems (PAIS 2023)",
+    "category": "conference",
+    "doi": "10.3233/FAIA230603",
+    "url": "https://doi.org/10.3233/FAIA230603"
+  },
+  {
+    "title": "Argumentative explanations for pattern-based text classifiers",
+    "authors": "Piyawat Lertvittayakumjorn, Francesca Toni",
+    "year": 2023,
+    "venue": "Argument & Computation",
+    "venue_full": "Argument Comput.",
+    "category": "journal",
+    "doi": "10.3233/AAC-220004",
+    "url": "https://doi.org/10.3233/AAC-220004"
+  },
+  {
+    "title": "Beyond Logic Programming for Legal Reasoning",
+    "authors": "Ha-Thanh Nguyen, Francesca Toni, Kostas Stathis, Ken Satoh",
+    "year": 2023,
+    "venue": "ICLP Workshops 2023",
+    "venue_full": "Proceedings of the International Conference on Logic Programming 2023 Workshops co-located with the 39th International Conference on Logic Programming (ICLP 2023), London, United Kingdom, July 9th and 10th, 2023",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3437/paper2LPLR.pdf"
+  },
+  {
+    "title": "Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task",
+    "authors": "Ha-Thanh Nguyen, Randy Goebel, Francesca Toni, Kostas Stathis, Ken Satoh",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2309.05501",
+    "url": "https://doi.org/10.48550/arXiv.2309.05501"
+  },
+  {
+    "title": "CAFE: Conflict-Aware Feature-wise Explanations",
+    "authors": "Adam Dejl, Hamed Ayoobi, Matthew Williams, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2310.20363",
+    "url": "https://doi.org/10.48550/arXiv.2310.20363"
+  },
+  {
+    "title": "Causal Discovery and Knowledge Injection for Contestable Neural Networks",
+    "authors": "Fabrizio Russo, Francesca Toni",
+    "year": 2023,
+    "venue": "ECAI 2023",
+    "venue_full": "ECAI 2023 - 26th European Conference on Artificial Intelligence, September 30 - October 4, 2023, Krakow, Poland - Including 12th Conference on Prestigious Applications of Intelligent Systems (PAIS 2023)",
+    "category": "conference",
+    "doi": "10.3233/FAIA230495",
+    "url": "https://doi.org/10.3233/FAIA230495"
+  },
+  {
+    "title": "DR-HAI: Argumentation-based Dialectical Reconciliation in Human-AI Interactions",
+    "authors": "Stylianos Loukas Vasileiou, Ashwin Kumar, William Yeoh, Tran Cao Son, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2306.14694",
+    "url": "https://doi.org/10.48550/arXiv.2306.14694"
+  },
+  {
+    "title": "Explaining Classifiers' Outputs with Causal Models and Argumentation",
+    "authors": "Antonio Rago, Fabrizio Russo, Emanuele Albini, Francesca Toni, Pietro Baroni",
+    "year": 2023,
+    "venue": "IfCoLog Journal of Logics and their Applications",
+    "venue_full": "FLAP",
+    "category": "journal",
+    "doi": "",
+    "url": "https://www.collegepublications.co.uk/downloads/ifcolog00059.pdf"
+  },
+  {
+    "title": "Explaining Random Forests Using Bipolar Argumentation and Markov Networks",
+    "authors": "Nico Potyka, Xiang Yin, Francesca Toni",
+    "year": 2023,
+    "venue": "AAAI 2023",
+    "venue_full": "Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI 2023, Thirty-Fifth Conference on Innovative Applications of Artificial Intelligence, IAAI 2023, Thirteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2023, Washington, DC, USA, February 7-14, 2023",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V37I8.26132",
+    "url": "https://doi.org/10.1609/aaai.v37i8.26132"
+  },
+  {
+    "title": "Forecasting with jury-based probabilistic argumentation",
+    "authors": "Francesca Toni, Antonio Rago, Kristijonas Cyras",
+    "year": 2023,
+    "venue": "Journal of Applied Non-Classical Logics",
+    "venue_full": "J. Appl. Non Class. Logics",
+    "category": "journal",
+    "doi": "10.1080/11663081.2023.2244716",
+    "url": "https://doi.org/10.1080/11663081.2023.2244716"
+  },
+  {
+    "title": "Formalising the Robustness of Counterfactual Explanations for Neural Networks",
+    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2023,
+    "venue": "AAAI 2023",
+    "venue_full": "Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI 2023, Thirty-Fifth Conference on Innovative Applications of Artificial Intelligence, IAAI 2023, Thirteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2023, Washington, DC, USA, February 7-14, 2023",
+    "category": "conference",
+    "doi": "10.1609/AAAI.V37I12.26740",
+    "url": "https://doi.org/10.1609/aaai.v37i12.26740"
+  },
+  {
+    "title": "How well do SOTA legal reasoning models support abductive reasoning?",
+    "authors": "Ha-Thanh Nguyen, Randy Goebel, Francesca Toni, Kostas Stathis, Ken Satoh",
+    "year": 2023,
+    "venue": "ICLP Workshops 2023",
+    "venue_full": "Proceedings of the International Conference on Logic Programming 2023 Workshops co-located with the 39th International Conference on Logic Programming (ICLP 2023), London, United Kingdom, July 9th and 10th, 2023",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3437/paper1LPLR.pdf"
+  },
+  {
+    "title": "Interactive Explanations by Conflict Resolution via Argumentative Exchanges",
+    "authors": "Antonio Rago, Hengzhi Li, Francesca Toni",
+    "year": 2023,
+    "venue": "KR 2023",
+    "venue_full": "Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning, KR 2023, Rhodes, Greece, September 2-8, 2023",
+    "category": "conference",
+    "doi": "10.24963/KR.2023/57",
+    "url": "https://doi.org/10.24963/kr.2023/57"
+  },
+  {
+    "title": "Learning Assumption-based Argumentation Frameworks",
+    "authors": "Maurizio Proietti, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2305.15921",
+    "url": "https://doi.org/10.48550/arXiv.2305.15921"
+  },
+  {
+    "title": "Learning Case Relevance in Case-Based Reasoning with Abstract Argumentation",
+    "authors": "Guilherme Paulino-Passos, Francesca Toni",
+    "year": 2023,
+    "venue": "JURIX 2023",
+    "venue_full": "Legal Knowledge and Information Systems - JURIX 2023: The Thirty-sixth Annual Conference, Maastricht, The Netherlands, 18-20 December 2023",
+    "category": "conference",
+    "doi": "10.3233/FAIA230950",
+    "url": "https://doi.org/10.3233/FAIA230950"
+  },
+  {
+    "title": "ProtoArgNet: Interpretable Image Classification with Super-Prototypes and Argumentation [Technical Report]",
+    "authors": "Hamed Ayoobi, Nico Potyka, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2311.15438",
+    "url": "https://doi.org/10.48550/arXiv.2311.15438"
+  },
+  {
+    "title": "Provably Robust and Plausible Counterfactual Explanations for Neural Networks via Robust Optimisation",
+    "authors": "Junqi Jiang, Jianglin Lan, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2023,
+    "venue": "ACML 2023",
+    "venue_full": "Asian Conference on Machine Learning, ACML 2023, 11-14 November 2023, Istanbul, Turkey",
+    "category": "conference",
+    "doi": "",
+    "url": "https://proceedings.mlr.press/v222/jiang24a.html"
+  },
+  {
+    "title": "PySpArX - A Python library for generating Sparse Argumentative eXplanations for neural networks",
+    "authors": "Mihailescu I, Weng A, Sharma S, Ghitu M, Grewal D, Chew K, Ayoobi H, Potyka N, Toni F",
+    "year": 2023,
+    "venue": "ICLP 2023",
+    "venue_full": "ICLP 2023 (system description)",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Recourse under Model Multiplicity via Argumentative Ensembling (Technical Report)",
+    "authors": "Junqi Jiang, Antonio Rago, Francesco Leofante, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2312.15097",
+    "url": "https://doi.org/10.48550/arXiv.2312.15097"
+  },
+  {
+    "title": "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values",
+    "authors": "Fabrizio Russo, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2312.11582",
+    "url": "https://doi.org/10.48550/arXiv.2312.11582"
+  },
+  {
+    "title": "SpArX: Sparse Argumentative Explanations for Neural Networks",
+    "authors": "Hamed Ayoobi, Nico Potyka, Francesca Toni",
+    "year": 2023,
+    "venue": "ECAI 2023",
+    "venue_full": "ECAI 2023 - 26th European Conference on Artificial Intelligence, September 30 - October 4, 2023, Krakow, Poland - Including 12th Conference on Prestigious Applications of Intelligent Systems (PAIS 2023)",
+    "category": "conference",
+    "doi": "10.3233/FAIA230265",
+    "url": "https://doi.org/10.3233/FAIA230265"
+  },
+  {
+    "title": "Technical Report on the Learning of Case Relevance in Case-Based Reasoning with Abstract Argumentation",
+    "authors": "Guilherme Paulino-Passos, Francesca Toni",
+    "year": 2023,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2310.19607",
+    "url": "https://doi.org/10.48550/arXiv.2310.19607"
+  },
+  {
+    "title": "Understanding ProbLog as Probabilistic Argumentation",
+    "authors": "Francesca Toni, Nico Potyka, Markus Ulbricht, Pietro Totis",
+    "year": 2023,
+    "venue": "ICLP 2023",
+    "venue_full": "Proceedings 39th International Conference on Logic Programming, ICLP 2023, Imperial College London, UK, 9th July 2023 - 15th July 2023",
+    "category": "conference",
+    "doi": "10.4204/EPTCS.385.18",
+    "url": "https://doi.org/10.4204/EPTCS.385.18"
+  },
+  {
+    "title": "Causal Discovery and Injection for Feed-Forward Neural Networks",
+    "authors": "Fabrizio Russo, Francesca Toni",
+    "year": 2022,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2205.09787",
+    "url": "https://doi.org/10.48550/arXiv.2205.09787"
+  },
+  {
+    "title": "Descriptive Accuracy in Explanations: The Case of Probabilistic Classifiers",
+    "authors": "Emanuele Albini, Antonio Rago, Pietro Baroni, Francesca Toni",
+    "year": 2022,
+    "venue": "SUM 2022",
+    "venue_full": "Scalable Uncertainty Management - 15th International Conference, SUM 2022, Paris, France, October 17-19, 2022, Proceedings",
+    "category": "conference",
+    "doi": "10.1007/978-3-031-18843-5_19",
+    "url": "https://doi.org/10.1007/978-3-031-18843-5_19"
+  },
+  {
+    "title": "Explaining Causal Models with Argumentation: the Case of Bi-variate Reinforcement",
+    "authors": "Antonio Rago, Pietro Baroni, Francesca Toni",
+    "year": 2022,
+    "venue": "KR 2022",
+    "venue_full": "Proceedings of the 19th International Conference on Principles of Knowledge Representation and Reasoning, KR 2022, Haifa, Israel, July 31 - August 5, 2022",
+    "category": "conference",
+    "doi": "",
+    "url": "https://proceedings.kr.org/2022/52/"
+  },
+  {
+    "title": "GrASP: A Library for Extracting and Exploring Human-Interpretable Textual Patterns",
+    "authors": "Piyawat Lertvittayakumjorn, Leshem Choshen, Eyal Shnarch, Francesca Toni",
+    "year": 2022,
+    "venue": "LREC 2022",
+    "venue_full": "Proceedings of the Thirteenth Language Resources and Evaluation Conference, LREC 2022, Marseille, France, 20-25 June 2022",
+    "category": "conference",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.lrec-1.655"
+  },
+  {
+    "title": "On Interactive Explanations as Non-Monotonic Reasoning",
+    "authors": "Guilherme Paulino-Passos, Francesca Toni",
+    "year": 2022,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2208.00316",
+    "url": "https://doi.org/10.48550/arXiv.2208.00316"
+  },
+  {
+    "title": "On the Tradeoff Between Correctness and Completeness in Argumentative Explainable AI",
+    "authors": "Nico Potyka, Xiang Yin, Francesca Toni",
+    "year": 2022,
+    "venue": "ArgXAI 2022",
+    "venue_full": "1st International Workshop on Argumentation for eXplainable AI co-located with 9th International Conference on Computational Models of Argument (COMMA 2022), Cardiff, Wales, September 12, 2022",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3209/8151.pdf"
+  },
+  {
+    "title": "Should counterfactual explanations always be data instances?",
+    "authors": "Jiang J, Rago A, Toni F",
+    "year": 2022,
+    "venue": "XLoKR 2022",
+    "venue_full": "XLoKR 2022 (Workshop on Explainable Logic-Based Knowledge Representation)",
+    "category": "workshop",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Towards a Theory of Faithfulness: Faithful Explanations of Differentiable Classifiers over Continuous Data",
+    "authors": "Nico Potyka, Xiang Yin, Francesca Toni",
+    "year": 2022,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2205.09620",
+    "url": "https://doi.org/10.48550/arXiv.2205.09620"
+  },
+  {
+    "title": "Argumentative explanations for interactive recommendations",
+    "authors": "Antonio Rago, Oana Cocarascu, Christos Bechlivanidis, David A. Lagnado, Francesca Toni",
+    "year": 2021,
+    "venue": "Artificial Intelligence",
+    "venue_full": "Artif. Intell.",
+    "category": "journal",
+    "doi": "10.1016/J.ARTINT.2021.103506",
+    "url": "https://doi.org/10.1016/j.artint.2021.103506"
+  },
+  {
+    "title": "Forging Argumentative Explanations from Causal Models",
+    "authors": "Antonio Rago, Fabrizio Russo, Emanuele Albini, Pietro Baroni, Francesca Toni",
+    "year": 2021,
+    "venue": "AI4AI 2021",
+    "venue_full": "Proceedings of the 5th Workshop on Advances in Argumentation in Artificial Intelligence 2021 co-located with the 20th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2021), Milan, Italy, November 29th, 2021",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3086/paper3.pdf"
+  },
+  {
+    "title": "LRP-based argumentative explanations for neural networks",
+    "authors": "Sukpanichnant P, Rago A, Lertvittayakumjorn P, Toni F",
+    "year": 2021,
+    "venue": "XAI.it 2021",
+    "venue_full": "XAI.it 2021 (Italian Workshop on Explainable AI)",
+    "category": "workshop",
+    "doi": "",
+    "url": ""
+  },
+  {
+    "title": "Neural QBAFs: Explaining Neural Networks Under LRP-Based Argumentation Frameworks",
+    "authors": "Purin Sukpanichnant, Antonio Rago, Piyawat Lertvittayakumjorn, Francesca Toni",
+    "year": 2021,
+    "venue": "AIxIA 2021",
+    "venue_full": "AIxIA 2021 - Advances in Artificial Intelligence - 20th International Conference of the Italian Association for Artificial Intelligence, Virtual Event, December 1-3, 2021, Revised Selected Papers",
+    "category": "conference",
+    "doi": "10.1007/978-3-031-08421-8_30",
+    "url": "https://doi.org/10.1007/978-3-031-08421-8_30"
+  }
+]
