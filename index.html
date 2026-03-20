@@ -546,6 +546,37 @@ body {
 .edit-btn:hover { background: rgba(0, 62, 116, 0.08); color: var(--imperial); }
 .edit-btn svg { width: 12px; height: 12px; }
 
+/* ===== TOAST ===== */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: var(--ink);
+  color: var(--white);
+  font-size: 0.84rem;
+  font-weight: 400;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 8px 30px rgba(44, 36, 22, 0.25);
+  z-index: 2000;
+  opacity: 0;
+  transition: all 0.3s ease;
+  max-width: 520px;
+  text-align: center;
+  line-height: 1.5;
+}
+.toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.toast a {
+  color: var(--gold-light);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+
 /* ===== ANIMATIONS ===== */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(5px); }
@@ -637,6 +668,8 @@ body {
     &nbsp;&middot;&nbsp; <a href="#" onclick="exportJSON(event)" class="export-link">Export JSON</a>
   </div>
 </footer>
+
+<div class="toast" id="toast"></div>
 
 <script>
 let PAPERS = [];
@@ -797,7 +830,7 @@ function renderPapers() {
         <div class="paper-authors">${esc(p.authors)}</div>
         <div class="paper-meta">
           <span class="paper-category ${catClass}">${catPaperLabels[p.category] || p.category}</span>
-          <span class="paper-venue">${esc(p.venue)}</span>
+          <span class="paper-venue">${esc(baseVenue(p.venue))}</span>
           <button class="edit-btn" onclick="openEdit(${PAPERS.indexOf(p)})" title="Edit"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z"/></svg>Edit</button>
           <a class="scholar-btn" href="${scholarUrl(p.title)}" target="_blank" rel="noopener" title="Search on Google Scholar">
             <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3z" fill="#4285f4"/><circle cx="12" cy="13" r="3.5" fill="#4285f4" opacity="0.55"/></svg>
@@ -897,6 +930,7 @@ function savePaper() {
   closeModal();
   refreshDerivedData();
   render();
+  showReminder();
 }
 
 function deletePaper() {
@@ -908,6 +942,14 @@ function deletePaper() {
   closeModal();
   refreshDerivedData();
   render();
+  showReminder();
+}
+
+function showReminder() {
+  const toast = document.getElementById('toast');
+  toast.innerHTML = 'Changes saved locally. Remember to <a onclick="exportJSON(event)">Export JSON</a> and update the file on GitHub.';
+  toast.classList.add('visible');
+  setTimeout(() => toast.classList.remove('visible'), 6000);
 }
 
 // Close modal on overlay click
