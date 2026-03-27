@@ -94,6 +94,75 @@ body {
   color: var(--imperial);
 }
 
+.header-sections {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.header-section {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding-top: 2px;
+  min-width: 148px;
+}
+.award-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.award-item {
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.award-item a {
+  color: var(--imperial);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,62,116,0.2);
+  transition: border-color 0.2s;
+}
+.award-item a:hover { border-color: var(--imperial); }
+.award-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gold);
+  background: var(--gold-muted);
+  border: 1px solid var(--gold-border);
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-left: 7px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.people-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 14px;
+}
+.people-list a, .people-list span {
+  font-size: 0.9rem;
+  color: var(--imperial);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,62,116,0.2);
+  transition: border-color 0.2s;
+}
+.people-list span {
+  color: var(--ink);
+  border-bottom: none;
+}
+.people-list a:hover { border-color: var(--imperial); }
+
 /* ===== MAIN ===== */
 .main {
   max-width: 1060px;
@@ -158,7 +227,7 @@ body {
   transition: border-color 0.2s;
 }
 .search-box input:focus { border-color: var(--imperial); }
-mark { background: #ffe066; color: inherit; padding: 0 1px; border-radius: 2px; }
+mark { background: #ffd740; color: #1a1100; padding: 0 3px; border-radius: 2px; font-weight: 600; }
 .search-box input::placeholder { color: var(--ink-muted); font-weight: 300; }
 .search-icon {
   position: absolute;
@@ -598,6 +667,35 @@ mark { background: #ffe066; color: inherit; padding: 0 1px; border-radius: 2px; 
       <a href="https://www.imperial.ac.uk" target="_blank">Imperial College London</a>
     </p>
     <div class="stats-row" id="statsRow"></div>
+    <div class="header-sections">
+      <div class="header-section">
+        <div class="section-label">Best Paper Award</div>
+        <div class="award-list">
+          <div class="award-item">
+            Placeholder Paper Title One &mdash; SomeConference 2023
+            <span class="award-badge">Best Paper</span>
+          </div>
+          <div class="award-item">
+            Placeholder Paper Title Two &mdash; AnotherConference 2024
+            <span class="award-badge">Best Paper</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-section">
+        <div class="section-label">People</div>
+        <div class="people-list">
+          <a href="https://www.doc.ic.ac.uk/~afr114/" target="_blank" rel="noopener">Dr Antonio Rago</a>
+          <a href="https://alorem.github.io/" target="_blank" rel="noopener">Dr Anna Rapberger</a>
+          <a href="https://profiles.cardiff.ac.uk/staff/potykan" target="_blank" rel="noopener">Dr Nico Potyka</a>
+          <a href="https://hamed-ayoobi.github.io/" target="_blank" rel="noopener">Dr. Hamed Ayoobi</a>
+          <a href="https://chenlihu.com/" target="_blank" rel="noopener">Dr Lihu Chen</a>
+          <a href="https://briziorusso.github.io/" target="_blank" rel="noopener">Dr Fabrizio Russo</a>
+          <a href="https://xiangyin2021.github.io/yinxiang.github.io/" target="_blank" rel="noopener">Dr Xiang Yin</a>
+          <span>Adam Dejl</span>
+          <a href="https://www.doc.ic.ac.uk/~dg1822/" target="_blank" rel="noopener">Deniz Gorur</a>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -853,10 +951,10 @@ function esc(s) {
 }
 
 function highlight(s) {
-  const safe = esc(s);
-  if (!searchQuery) return safe;
+  if (!searchQuery) return esc(s);
   const q = searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return safe.replace(new RegExp(q, 'gi'), m => `<mark>${m}</mark>`);
+  const parts = s.split(new RegExp(`(${q})`, 'gi'));
+  return parts.map((p, i) => i % 2 === 1 ? `<mark>${esc(p)}</mark>` : esc(p)).join('');
 }
 
 function render() {
