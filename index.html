@@ -163,6 +163,52 @@ body {
 }
 .people-list a:hover { border-color: var(--imperial); }
 
+.themes-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.themes-btns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.theme-btn {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 4px 14px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: var(--white);
+  color: var(--ink-light);
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.01em;
+}
+.theme-btn:hover {
+  border-color: var(--imperial-light);
+  color: var(--imperial);
+}
+.theme-btn.active {
+  background: var(--imperial);
+  border-color: var(--imperial);
+  color: var(--white);
+}
+.theme-desc {
+  font-size: 0.88rem;
+  color: var(--ink-light);
+  line-height: 1.6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.28s ease, opacity 0.22s ease;
+  opacity: 0;
+}
+.theme-desc.open {
+  max-height: 160px;
+  opacity: 1;
+}
+
 /* ===== MAIN ===== */
 .main {
   max-width: 1060px;
@@ -698,6 +744,17 @@ mark { background: #ffd740; color: #1a1100; padding: 0 3px; border-radius: 2px; 
         </div>
       </div>
       <div class="header-section">
+        <div class="section-label">Themes</div>
+        <div class="themes-content">
+          <div class="themes-btns">
+            <button class="theme-btn" data-theme="0">Computational Argumentation</button>
+            <button class="theme-btn" data-theme="1">Explainable &amp; Contestable AI</button>
+            <button class="theme-btn" data-theme="2">Argument Mining &amp; LLMs</button>
+          </div>
+          <div class="theme-desc" id="themeDesc"></div>
+        </div>
+      </div>
+      <div class="header-section">
         <div class="section-label">People</div>
         <div class="people-list">
           <a href="https://www.doc.ic.ac.uk/~afr114/" target="_blank" rel="noopener">Dr Antonio Rago</a>
@@ -1139,6 +1196,28 @@ function exportJSON(e) {
   a.click();
   URL.revokeObjectURL(url);
 }
+
+const THEMES = [
+  'Research on formal argumentation frameworks — including Assumption-Based Argumentation (ABA) and Quantitative Bipolar Argumentation Frameworks (QBAFs) — covering theoretical foundations, semantics, and learning algorithms, with extensions to neuro-symbolic methods and case-based reasoning.',
+  'Argumentation-based approaches for explaining and contesting AI decisions, encompassing counterfactual explanations, causal discovery and injection, and argumentative feature attributions for neural networks and classifiers, with applications in healthcare and critical infrastructure.',
+  'Combining computational argumentation with large language models and natural language processing, covering argumentative reasoning with LLMs, argument detection from text, and applications in legal AI, fact verification, and bias detection.'
+];
+
+document.querySelectorAll('.theme-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const idx = parseInt(btn.dataset.theme);
+    const desc = document.getElementById('themeDesc');
+    const isActive = btn.classList.contains('active');
+    document.querySelectorAll('.theme-btn').forEach(b => b.classList.remove('active'));
+    if (isActive) {
+      desc.classList.remove('open');
+    } else {
+      btn.classList.add('active');
+      desc.textContent = THEMES[idx];
+      desc.classList.add('open');
+    }
+  });
+});
 
 loadPapersFromStorage();
 </script>
