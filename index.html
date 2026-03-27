@@ -494,23 +494,37 @@ mark { background: #ffd740; color: #1a1100; padding: 0 3px; border-radius: 2px; 
 .scholar-btn:hover { background: rgba(66, 133, 244, 0.08); color: #4285f4; }
 .scholar-btn svg { width: 13px; height: 13px; }
 
-.paper-citations {
-  display: flex;
-  align-items: flex-end;
-  gap: 8px;
-  margin-top: 8px;
-}
-.cite-svg rect {
-  fill: var(--imperial);
-  opacity: 0.45;
-  transition: opacity 0.15s;
-}
-.cite-svg rect:hover { opacity: 0.8; }
-.cite-total {
+.cite-count {
   font-size: 0.72rem;
   color: var(--ink-muted);
+  font-weight: 400;
+}
+
+.total-cite-content {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+.total-cite-chart rect {
+  fill: var(--imperial);
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+.total-cite-chart rect:hover { opacity: 0.85; }
+.total-cite-chart text {
+  fill: var(--ink-muted);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 9px;
+}
+.total-cite-stat {
+  font-size: 0.88rem;
+  color: var(--ink-light);
   font-weight: 300;
   white-space: nowrap;
+}
+.total-cite-stat strong {
+  font-weight: 600;
+  color: var(--imperial);
 }
 
 /* ===== NO RESULTS ===== */
@@ -749,6 +763,10 @@ mark { background: #ffd740; color: #1a1100; padding: 0 3px; border-radius: 2px; 
     </p>
     <div class="stats-row" id="statsRow"></div>
     <div class="header-sections">
+      <div class="header-section" id="totalCitationsSection" style="display:none">
+        <div class="section-label">Citations</div>
+        <div class="total-cite-content" id="totalCiteChart"></div>
+      </div>
       <div class="header-section">
         <div class="section-label">Best Paper Award</div>
         <div class="award-list">
@@ -1029,13 +1047,13 @@ function renderPapers() {
         <div class="paper-meta">
           <span class="paper-category ${catClass}">${catPaperLabels[p.category] || p.category}</span>
           <span class="paper-venue">${highlight(baseVenue(p.venue))}</span>
+          ${renderCitationCount(p)}
           <button class="edit-btn" onclick="openEdit(${PAPERS.indexOf(p)})" title="Edit"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z"/></svg>Edit</button>
           <a class="scholar-btn" href="${scholarUrl(p.title)}" target="_blank" rel="noopener" title="Search on Google Scholar">
             <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3z" fill="#4285f4"/><circle cx="12" cy="13" r="3.5" fill="#4285f4" opacity="0.55"/></svg>
             Scholar
           </a>
         </div>
-        ${renderCitationChart(p)}
       </div>`;
     });
     html += '</div>';
@@ -1043,29 +1061,49 @@ function renderPapers() {
   container.innerHTML = html;
 }
 
-function renderCitationChart(p) {
-  if (!p.citationsPerYear) return '';
-  const entries = Object.entries(p.citationsPerYear).sort((a, b) => a[0] - b[0]);
-  if (entries.length === 0) return '';
+function renderCitationCount(p) {
+  if (!p.citationCount) return '';
+  return `<span class="cite-count">${p.citationCount} cited</span>`;
+}
+
+function renderTotalCitations() {
+  const el = document.getElementById('totalCiteChart');
+  if (!el) return;
+  const yearTotals = {};
+  PAPERS.forEach(p => {
+    if (p.citationsPerYear) {
+      Object.entries(p.citationsPerYear).forEach(([y, c]) => {
+        yearTotals[y] = (yearTotals[y] || 0) + c;
+      });
+    }
+  });
+  const entries = Object.entries(yearTotals).sort((a, b) => a[0] - b[0]);
+  if (entries.length === 0) {
+    document.getElementById('totalCitationsSection').style.display = 'none';
+    return;
+  }
+  document.getElementById('totalCitationsSection').style.display = '';
   const counts = entries.map(e => e[1]);
   const maxC = Math.max(...counts);
-  if (maxC === 0) return '';
+  const totalCites = counts.reduce((a, b) => a + b, 0);
 
-  const bw = 7, gap = 2, h = 34;
+  const bw = 18, gap = 4, barH = 50, labelH = 14, countH = 12;
+  const h = barH + labelH + countH + 4;
   const w = entries.length * (bw + gap) - gap;
-  const total = counts.reduce((a, b) => a + b, 0);
 
   const bars = entries.map(([year, count], i) => {
-    const bh = Math.max(2, Math.round(count / maxC * h));
+    const bh = Math.max(2, Math.round(count / maxC * barH));
     const x = i * (bw + gap);
-    const y = h - bh;
-    return `<rect x="${x}" y="${y}" width="${bw}" height="${bh}" rx="1"><title>${year}: ${count}</title></rect>`;
+    const yBar = barH - bh + countH;
+    const yCount = yBar - 2;
+    const yLabel = barH + countH + 10;
+    return `<rect x="${x}" y="${yBar}" width="${bw}" height="${bh}" rx="2"><title>${year}: ${count}</title></rect>` +
+      (count > 0 ? `<text x="${x + bw/2}" y="${yCount}" text-anchor="middle" font-size="8">${count}</text>` : '') +
+      `<text x="${x + bw/2}" y="${yLabel}" text-anchor="middle">${year.slice(2)}</text>`;
   }).join('');
 
-  return `<div class="paper-citations">
-    <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="cite-svg">${bars}</svg>
-    <span class="cite-total">${total} citation${total !== 1 ? 's' : ''}</span>
-  </div>`;
+  el.innerHTML = `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="total-cite-chart">${bars}</svg>` +
+    `<span class="total-cite-stat"><strong>${totalCites}</strong> total citations</span>`;
 }
 
 function esc(s) {
@@ -1223,6 +1261,7 @@ async function loadPapersFromStorage() {
 
   refreshDerivedData();
   renderStats();
+  renderTotalCitations();
   render();
 }
 

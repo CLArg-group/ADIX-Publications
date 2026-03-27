@@ -27,7 +27,11 @@
     "venue_full": "Proceedings of the 22nd International Conference on Principles of Knowledge Representation and Reasoning, KR 2025, Melbourne, Australia, November 1-17, 2025",
     "category": "conference",
     "doi": "10.24963/KR.2025/49",
-    "url": "https://doi.org/10.24963/kr.2025/49"
+    "url": "https://doi.org/10.24963/kr.2025/49",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "ADA-X: An Online System for Fully Automated, Explainable Review Aggregation",
@@ -37,7 +41,8 @@
     "venue_full": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
     "category": "conference",
     "doi": "10.3233/FAIA251444",
-    "url": "https://doi.org/10.3233/FAIA251444"
+    "url": "https://doi.org/10.3233/FAIA251444",
+    "citationCount": 0
   },
   {
     "title": "Aggregating bipolar opinions through bipolar assumption-based argumentation",
@@ -47,7 +52,11 @@
     "venue_full": "Auton. Agents Multi Agent Syst.",
     "category": "journal",
     "doi": "10.1007/S10458-024-09684-3",
-    "url": "https://doi.org/10.1007/s10458-024-09684-3"
+    "url": "https://doi.org/10.1007/s10458-024-09684-3",
+    "citationCount": 3,
+    "citationsPerYear": {
+      "2025": 3
+    }
   },
   {
     "title": "Argtumour: integrating large language models and computational argumentation to discuss treatment options for high-grade glioma",
@@ -57,7 +66,8 @@
     "venue_full": "Neuro-Oncology, Vol 27, Supplement_2, p.ii26",
     "category": "journal",
     "doi": "10.1093/neuonc/noaf185.104",
-    "url": "https://doi.org/10.1093/neuonc/noaf185.104"
+    "url": "https://doi.org/10.1093/neuonc/noaf185.104",
+    "citationCount": 0
   },
   {
     "title": "Argumentative Debates for Transparent Bias Detection [Technical Report]",
@@ -67,7 +77,11 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2508.04511",
-    "url": "https://doi.org/10.48550/arXiv.2508.04511"
+    "url": "https://doi.org/10.48550/arXiv.2508.04511",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2026": 1
+    }
   },
   {
     "title": "Argumentative LLMs for Legal Information Entailment",
@@ -77,7 +91,8 @@
     "venue_full": "Legal Knowledge and Information Systems - JURIX 2025: The Thirty-eighth Annual Conference, Turin, Italy, 9-11 December 2025",
     "category": "conference",
     "doi": "10.3233/FAIA251582",
-    "url": "https://doi.org/10.3233/FAIA251582"
+    "url": "https://doi.org/10.3233/FAIA251582",
+    "citationCount": 0
   },
   {
     "title": "Argumentative Large Language Models for Explainable and Contestable Claim Verification",
@@ -87,7 +102,13 @@
     "venue_full": "Thirty-Ninth AAAI Conference on Artificial Intelligence, Thirty-Seventh Conference on Innovative Applications of Artificial Intelligence, Fifteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2025, Philadelphia, PA, USA, February 25 - March 4, 2025",
     "category": "conference",
     "doi": "10.1609/AAAI.V39I14.33637",
-    "url": "https://doi.org/10.1609/aaai.v39i14.33637"
+    "url": "https://doi.org/10.1609/aaai.v39i14.33637",
+    "citationCount": 28,
+    "citationsPerYear": {
+      "2024": 5,
+      "2025": 14,
+      "2026": 7
+    }
   },
   {
     "title": "Argumentative review aggregation and dialogical explanations",
@@ -97,7 +118,13 @@
     "venue_full": "Artif. Intell.",
     "category": "journal",
     "doi": "10.1016/J.ARTINT.2025.104291",
-    "url": "https://doi.org/10.1016/j.artint.2025.104291"
+    "url": "https://doi.org/10.1016/j.artint.2025.104291",
+    "citationCount": 7,
+    "citationsPerYear": {
+      "2024": 1,
+      "2025": 5,
+      "2026": 1
+    }
   },
   {
     "title": "Argumentatively Coherent Judgmental Forecasting",
@@ -127,7 +154,8 @@
     "venue_full": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI 2025, Montreal, Canada, August 16-22, 2025",
     "category": "conference",
     "doi": "10.24963/IJCAI.2025/481",
-    "url": "https://doi.org/10.24963/ijcai.2025/481"
+    "url": "https://doi.org/10.24963/ijcai.2025/481",
+    "citationCount": 0
   },
   {
     "title": "Evaluating Uncertainty Quantification Methods in Argumentative Large Language Models",
@@ -147,7 +175,11 @@
     "venue_full": "AI Mag.",
     "category": "journal",
     "doi": "10.1002/AAAI.70033",
-    "url": "https://doi.org/10.1002/aaai.70033"
+    "url": "https://doi.org/10.1002/aaai.70033",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2026": 1
+    }
   },
   {
     "title": "Explainable Prediction of the Mechanical Properties of Composites with CNNs",
@@ -167,7 +199,12 @@
     "venue_full": "ECAI 2025 - 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy - Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)",
     "category": "conference",
     "doi": "10.3233/FAIA251479",
-    "url": "https://doi.org/10.3233/FAIA251479"
+    "url": "https://doi.org/10.3233/FAIA251479",
+    "citationCount": 4,
+    "citationsPerYear": {
+      "2025": 3,
+      "2026": 1
+    }
   },
   {
     "title": "Exploring the Potential for Large Language Models to Demonstrate Rational Probabilistic Beliefs",
@@ -177,7 +214,12 @@
     "venue_full": "Proceedings of the 38th International Florida Artificial Intelligence Research Society Conference, FLAIRS 2025, Daytona Beach, FL, USA, May 20-23, 2025",
     "category": "conference",
     "doi": "10.32473/FLAIRS.38.1.138892",
-    "url": "https://doi.org/10.32473/flairs.38.1.138892"
+    "url": "https://doi.org/10.32473/flairs.38.1.138892",
+    "citationCount": 5,
+    "citationsPerYear": {
+      "2025": 2,
+      "2026": 3
+    }
   },
   {
     "title": "Free Argumentative Exchanges for Explaining Image Classifiers",
@@ -197,7 +239,11 @@
     "venue_full": "Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2025, Detroit, MI, USA, May 19-23, 2025",
     "category": "conference",
     "doi": "10.5555/3709347.3743571",
-    "url": "https://dl.acm.org/doi/10.5555/3709347.3743571"
+    "url": "https://dl.acm.org/doi/10.5555/3709347.3743571",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "Heterogeneous Graph Neural Networks for Assumption-Based Argumentation",
@@ -207,7 +253,8 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2511.08982",
-    "url": "https://doi.org/10.48550/arXiv.2511.08982"
+    "url": "https://doi.org/10.48550/arXiv.2511.08982",
+    "citationCount": 0
   },
   {
     "title": "Heterogeneous Graph Neural Networks for Credulous Acceptance of Assumptions in ABA",
@@ -237,7 +284,12 @@
     "venue_full": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency, FAccT 2025, Athens, Greece, June 23-26, 2025",
     "category": "conference",
     "doi": "10.1145/3715275.3732100",
-    "url": "https://doi.org/10.1145/3715275.3732100"
+    "url": "https://doi.org/10.1145/3715275.3732100",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2024": 1,
+      "2025": 1
+    }
   },
   {
     "title": "Identifying Query-Relevant Neurons in Large Language Models for Long-Form Texts",
@@ -247,7 +299,13 @@
     "venue_full": "Thirty-Ninth AAAI Conference on Artificial Intelligence, Thirty-Seventh Conference on Innovative Applications of Artificial Intelligence, Fifteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2025, Philadelphia, PA, USA, February 25 - March 4, 2025",
     "category": "conference",
     "doi": "10.1609/AAAI.V39I22.34529",
-    "url": "https://doi.org/10.1609/aaai.v39i22.34529"
+    "url": "https://doi.org/10.1609/aaai.v39i22.34529",
+    "citationCount": 13,
+    "citationsPerYear": {
+      "2024": 3,
+      "2025": 8,
+      "2026": 2
+    }
   },
   {
     "title": "Learning to Contest Argumentative Claims",
@@ -257,7 +315,12 @@
     "venue_full": "Rules and Reasoning - 9th International Joint Conference, RuleML+RR 2025, Istanbul, Turkey, September 22-24, 2025, Proceedings",
     "category": "conference",
     "doi": "10.1007/978-3-032-08887-1_15",
-    "url": "https://doi.org/10.1007/978-3-032-08887-1_15"
+    "url": "https://doi.org/10.1007/978-3-032-08887-1_15",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2025": 1,
+      "2026": 1
+    }
   },
   {
     "title": "Neuro-Argumentative Learning with Case-Based Reasoning",
@@ -267,7 +330,11 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2505.15742",
-    "url": "https://doi.org/10.48550/arXiv.2505.15742"
+    "url": "https://doi.org/10.48550/arXiv.2505.15742",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "Object-Centric Case-Based Reasoning via Argumentation",
@@ -287,7 +354,11 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2506.14577",
-    "url": "https://doi.org/10.48550/arXiv.2506.14577"
+    "url": "https://doi.org/10.48550/arXiv.2506.14577",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "On Gradual Semantics for Assumption-Based Argumentation",
@@ -307,7 +378,8 @@
     "venue_full": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI 2025, Montreal, Canada, August 16-22, 2025",
     "category": "conference",
     "doi": "10.24963/IJCAI.2025/488",
-    "url": "https://doi.org/10.24963/ijcai.2025/488"
+    "url": "https://doi.org/10.24963/ijcai.2025/488",
+    "citationCount": 0
   },
   {
     "title": "On the Impact of Sparsification on Quantitative Argumentative Explanations in Neural Networks",
@@ -327,7 +399,12 @@
     "venue_full": "Thirty-Ninth AAAI Conference on Artificial Intelligence, Thirty-Seventh Conference on Innovative Applications of Artificial Intelligence, Fifteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2025, Philadelphia, PA, USA, February 25 - March 4, 2025",
     "category": "conference",
     "doi": "10.1609/AAAI.V39I2.32173",
-    "url": "https://doi.org/10.1609/aaai.v39i2.32173"
+    "url": "https://doi.org/10.1609/aaai.v39i2.32173",
+    "citationCount": 7,
+    "citationsPerYear": {
+      "2025": 5,
+      "2026": 1
+    }
   },
   {
     "title": "Representation Consistency for Accurate and Coherent LLM Answer Aggregation",
@@ -337,7 +414,12 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2506.21590",
-    "url": "https://doi.org/10.48550/arXiv.2506.21590"
+    "url": "https://doi.org/10.48550/arXiv.2506.21590",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2025": 1,
+      "2026": 1
+    }
   },
   {
     "title": "Shapley-PC: Constraint-based Causal Structure Learning with a Shapley Inspired Framework",
@@ -357,7 +439,8 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2510.04855",
-    "url": "https://doi.org/10.48550/arXiv.2510.04855"
+    "url": "https://doi.org/10.48550/arXiv.2510.04855",
+    "citationCount": 0
   },
   {
     "title": "Using computational argumentation to integrate activity and quality of life data to predict disease progression in patients with high-grade glioma",
@@ -377,7 +460,12 @@
     "venue_full": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency, FAccT 2025, Athens, Greece, June 23-26, 2025",
     "category": "conference",
     "doi": "10.1145/3715275.3732186",
-    "url": "https://doi.org/10.1145/3715275.3732186"
+    "url": "https://doi.org/10.1145/3715275.3732186",
+    "citationCount": 4,
+    "citationsPerYear": {
+      "2025": 3,
+      "2026": 1
+    }
   },
   {
     "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
@@ -387,7 +475,11 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2410.22209",
-    "url": "https://doi.org/10.48550/arXiv.2410.22209"
+    "url": "https://doi.org/10.48550/arXiv.2410.22209",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "A little of that human touch: achieving human-centric explainable AI via argumentation",
@@ -407,7 +499,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2406.10868",
-    "url": "https://doi.org/10.48550/arXiv.2406.10868"
+    "url": "https://doi.org/10.48550/arXiv.2406.10868",
+    "citationCount": 13,
+    "citationsPerYear": {
+      "2024": 3,
+      "2025": 8,
+      "2026": 2
+    }
   },
   {
     "title": "Applying Attribution Explanations in Truth-Discovery Quantitative Bipolar Argumentation Frameworks",
@@ -457,7 +555,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2405.02079",
-    "url": "https://doi.org/10.48550/arXiv.2405.02079"
+    "url": "https://doi.org/10.48550/arXiv.2405.02079",
+    "citationCount": 28,
+    "citationsPerYear": {
+      "2024": 5,
+      "2025": 14,
+      "2026": 7
+    }
   },
   {
     "title": "CE-QArg: Counterfactual Explanations for Quantitative Bipolar Argumentation Frameworks",
@@ -507,7 +611,13 @@
     "venue_full": "Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning, KR 2024, Hanoi, Vietnam. November 2-8, 2024",
     "category": "conference",
     "doi": "10.24963/KR.2024/73",
-    "url": "https://doi.org/10.24963/kr.2024/73"
+    "url": "https://doi.org/10.24963/kr.2024/73",
+    "citationCount": 6,
+    "citationsPerYear": {
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    }
   },
   {
     "title": "Explaining Arguments' Strength: Unveiling the Role of Attacks and Supports",
@@ -527,7 +637,12 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2404.14304",
-    "url": "https://doi.org/10.48550/arXiv.2404.14304"
+    "url": "https://doi.org/10.48550/arXiv.2404.14304",
+    "citationCount": 8,
+    "citationsPerYear": {
+      "2024": 3,
+      "2025": 4
+    }
   },
   {
     "title": "Explaining Image Classifiers with Visual Debates",
@@ -537,7 +652,11 @@
     "venue_full": "Discovery Science - 27th International Conference, DS 2024, Pisa, Italy, October 14-16, 2024, Proceedings, Part II",
     "category": "conference",
     "doi": "10.1007/978-3-031-78980-9_13",
-    "url": "https://doi.org/10.1007/978-3-031-78980-9_13"
+    "url": "https://doi.org/10.1007/978-3-031-78980-9_13",
+    "citationCount": 3,
+    "citationsPerYear": {
+      "2025": 3
+    }
   },
   {
     "title": "Instantiations and Computational Aspects of Non-Flat Assumption-based Argumentation",
@@ -557,7 +676,11 @@
     "venue_full": "Scalable Uncertainty Management - 16th International Conference, SUM 2024, Palermo, Italy, November 27-29, 2024, Proceedings",
     "category": "conference",
     "doi": "10.1007/978-3-031-76235-2_2",
-    "url": "https://doi.org/10.1007/978-3-031-76235-2_2"
+    "url": "https://doi.org/10.1007/978-3-031-76235-2_2",
+    "citationCount": 3,
+    "citationsPerYear": {
+      "2025": 3
+    }
   },
   {
     "title": "Interval abstractions for robust counterfactual explanations",
@@ -567,7 +690,13 @@
     "venue_full": "Artif. Intell.",
     "category": "journal",
     "doi": "10.1016/J.ARTINT.2024.104218",
-    "url": "https://doi.org/10.1016/j.artint.2024.104218"
+    "url": "https://doi.org/10.1016/j.artint.2024.104218",
+    "citationCount": 7,
+    "citationsPerYear": {
+      "2024": 1,
+      "2025": 3,
+      "2026": 2
+    }
   },
   {
     "title": "Learning Brave Assumption-Based Argumentation Frameworks via ASP",
@@ -597,7 +726,11 @@
     "venue_full": "Computational Models of Argument - Proceedings of COMMA 2024, Hagen, Germany, September 18-20, 2024",
     "category": "conference",
     "doi": "10.3233/FAIA240315",
-    "url": "https://doi.org/10.3233/FAIA240315"
+    "url": "https://doi.org/10.3233/FAIA240315",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "On the Correspondence of Non-flat Assumption-based Argumentation and Logic Programming with Negation as Failure in the Head",
@@ -617,7 +750,11 @@
     "venue_full": "Computational Models of Argument - Proceedings of COMMA 2024, Hagen, Germany, September 18-20, 2024",
     "category": "conference",
     "doi": "10.3233/FAIA240323",
-    "url": "https://doi.org/10.3233/FAIA240323"
+    "url": "https://doi.org/10.3233/FAIA240323",
+    "citationCount": 1,
+    "citationsPerYear": {
+      "2025": 1
+    }
   },
   {
     "title": "On the expressive power of assumption-based argumentation",
@@ -637,7 +774,12 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2409.16813",
-    "url": "https://doi.org/10.48550/arXiv.2409.16813"
+    "url": "https://doi.org/10.48550/arXiv.2409.16813",
+    "citationCount": 8,
+    "citationsPerYear": {
+      "2025": 5,
+      "2026": 3
+    }
   },
   {
     "title": "Predicting Human Judgement in Online Debates with Argumentation",
@@ -737,7 +879,14 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2306.16638",
-    "url": "https://doi.org/10.48550/arXiv.2306.16638"
+    "url": "https://doi.org/10.48550/arXiv.2306.16638",
+    "citationCount": 13,
+    "citationsPerYear": {
+      "2023": 4,
+      "2024": 4,
+      "2025": 4,
+      "2026": 1
+    }
   },
   {
     "title": "ABA Learning via ASP",
@@ -747,7 +896,12 @@
     "venue_full": "Proceedings 39th International Conference on Logic Programming, ICLP 2023, Imperial College London, UK, 9th July 2023 - 15th July 2023",
     "category": "conference",
     "doi": "10.4204/EPTCS.385.1",
-    "url": "https://doi.org/10.4204/EPTCS.385.1"
+    "url": "https://doi.org/10.4204/EPTCS.385.1",
+    "citationCount": 6,
+    "citationsPerYear": {
+      "2024": 2,
+      "2025": 3
+    }
   },
   {
     "title": "ABALearn: An Automated Logic-Based Learning System for ABA Frameworks",
@@ -757,7 +911,12 @@
     "venue_full": "AIxIA 2023 - Advances in Artificial Intelligence - XXIInd International Conference of the Italian Association for Artificial Intelligence, AIxIA 2023, Rome, Italy, November 6-9, 2023, Proceedings",
     "category": "conference",
     "doi": "10.1007/978-3-031-47546-7_1",
-    "url": "https://doi.org/10.1007/978-3-031-47546-7_1"
+    "url": "https://doi.org/10.1007/978-3-031-47546-7_1",
+    "citationCount": 3,
+    "citationsPerYear": {
+      "2024": 2,
+      "2025": 1
+    }
   },
   {
     "title": "Achieving descriptive accuracy in explanations via argumentation: The case of probabilistic classifiers",
@@ -767,7 +926,12 @@
     "venue_full": "Frontiers Artif. Intell.",
     "category": "journal",
     "doi": "10.3389/FRAI.2023.1099407",
-    "url": "https://doi.org/10.3389/frai.2023.1099407"
+    "url": "https://doi.org/10.3389/frai.2023.1099407",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2024": 1,
+      "2025": 1
+    }
   },
   {
     "title": "ArguCast: A System for Online Multi-Forecasting with Gradual Argumentation",
@@ -797,7 +961,13 @@
     "venue_full": "Argument Comput.",
     "category": "journal",
     "doi": "10.3233/AAC-220004",
-    "url": "https://doi.org/10.3233/AAC-220004"
+    "url": "https://doi.org/10.3233/AAC-220004",
+    "citationCount": 5,
+    "citationsPerYear": {
+      "2023": 1,
+      "2024": 2,
+      "2025": 2
+    }
   },
   {
     "title": "Beyond Logic Programming for Legal Reasoning",
@@ -817,7 +987,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2309.05501",
-    "url": "https://doi.org/10.48550/arXiv.2309.05501"
+    "url": "https://doi.org/10.48550/arXiv.2309.05501",
+    "citationCount": 6,
+    "citationsPerYear": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 4
+    }
   },
   {
     "title": "CAFE: Conflict-Aware Feature-wise Explanations",
@@ -827,7 +1003,12 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2310.20363",
-    "url": "https://doi.org/10.48550/arXiv.2310.20363"
+    "url": "https://doi.org/10.48550/arXiv.2310.20363",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2024": 1,
+      "2025": 1
+    }
   },
   {
     "title": "Causal Discovery and Knowledge Injection for Contestable Neural Networks",
@@ -837,7 +1018,14 @@
     "venue_full": "ECAI 2023 - 26th European Conference on Artificial Intelligence, September 30 - October 4, 2023, Krakow, Poland - Including 12th Conference on Prestigious Applications of Intelligent Systems (PAIS 2023)",
     "category": "conference",
     "doi": "10.3233/FAIA230495",
-    "url": "https://doi.org/10.3233/FAIA230495"
+    "url": "https://doi.org/10.3233/FAIA230495",
+    "citationCount": 9,
+    "citationsPerYear": {
+      "2023": 1,
+      "2024": 4,
+      "2025": 3,
+      "2026": 1
+    }
   },
   {
     "title": "DR-HAI: Argumentation-based Dialectical Reconciliation in Human-AI Interactions",
@@ -847,7 +1035,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2306.14694",
-    "url": "https://doi.org/10.48550/arXiv.2306.14694"
+    "url": "https://doi.org/10.48550/arXiv.2306.14694",
+    "citationCount": 6,
+    "citationsPerYear": {
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    }
   },
   {
     "title": "Explaining Classifiers' Outputs with Causal Models and Argumentation",
@@ -877,7 +1071,11 @@
     "venue_full": "J. Appl. Non Class. Logics",
     "category": "journal",
     "doi": "10.1080/11663081.2023.2244716",
-    "url": "https://doi.org/10.1080/11663081.2023.2244716"
+    "url": "https://doi.org/10.1080/11663081.2023.2244716",
+    "citationCount": 3,
+    "citationsPerYear": {
+      "2025": 3
+    }
   },
   {
     "title": "Formalising the Robustness of Counterfactual Explanations for Neural Networks",
@@ -917,7 +1115,12 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2305.15921",
-    "url": "https://doi.org/10.48550/arXiv.2305.15921"
+    "url": "https://doi.org/10.48550/arXiv.2305.15921",
+    "citationCount": 6,
+    "citationsPerYear": {
+      "2023": 3,
+      "2024": 2
+    }
   },
   {
     "title": "Learning Case Relevance in Case-Based Reasoning with Abstract Argumentation",
@@ -927,7 +1130,12 @@
     "venue_full": "Legal Knowledge and Information Systems - JURIX 2023: The Thirty-sixth Annual Conference, Maastricht, The Netherlands, 18-20 December 2023",
     "category": "conference",
     "doi": "10.3233/FAIA230950",
-    "url": "https://doi.org/10.3233/FAIA230950"
+    "url": "https://doi.org/10.3233/FAIA230950",
+    "citationCount": 4,
+    "citationsPerYear": {
+      "2024": 2,
+      "2025": 2
+    }
   },
   {
     "title": "ProtoArgNet: Interpretable Image Classification with Super-Prototypes and Argumentation [Technical Report]",
@@ -937,7 +1145,12 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2311.15438",
-    "url": "https://doi.org/10.48550/arXiv.2311.15438"
+    "url": "https://doi.org/10.48550/arXiv.2311.15438",
+    "citationCount": 7,
+    "citationsPerYear": {
+      "2025": 5,
+      "2026": 1
+    }
   },
   {
     "title": "Provably Robust and Plausible Counterfactual Explanations for Neural Networks via Robust Optimisation",
@@ -967,7 +1180,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2312.15097",
-    "url": "https://doi.org/10.48550/arXiv.2312.15097"
+    "url": "https://doi.org/10.48550/arXiv.2312.15097",
+    "citationCount": 16,
+    "citationsPerYear": {
+      "2024": 6,
+      "2025": 8,
+      "2026": 1
+    }
   },
   {
     "title": "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values",
@@ -977,7 +1196,8 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2312.11582",
-    "url": "https://doi.org/10.48550/arXiv.2312.11582"
+    "url": "https://doi.org/10.48550/arXiv.2312.11582",
+    "citationCount": 1
   },
   {
     "title": "SpArX: Sparse Argumentative Explanations for Neural Networks",
@@ -997,7 +1217,8 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2310.19607",
-    "url": "https://doi.org/10.48550/arXiv.2310.19607"
+    "url": "https://doi.org/10.48550/arXiv.2310.19607",
+    "citationCount": 0
   },
   {
     "title": "Understanding ProbLog as Probabilistic Argumentation",
@@ -1007,7 +1228,12 @@
     "venue_full": "Proceedings 39th International Conference on Logic Programming, ICLP 2023, Imperial College London, UK, 9th July 2023 - 15th July 2023",
     "category": "conference",
     "doi": "10.4204/EPTCS.385.18",
-    "url": "https://doi.org/10.4204/EPTCS.385.18"
+    "url": "https://doi.org/10.4204/EPTCS.385.18",
+    "citationCount": 2,
+    "citationsPerYear": {
+      "2024": 1,
+      "2025": 1
+    }
   },
   {
     "title": "Causal Discovery and Injection for Feed-Forward Neural Networks",
@@ -1017,7 +1243,14 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2205.09787",
-    "url": "https://doi.org/10.48550/arXiv.2205.09787"
+    "url": "https://doi.org/10.48550/arXiv.2205.09787",
+    "citationCount": 9,
+    "citationsPerYear": {
+      "2023": 1,
+      "2024": 4,
+      "2025": 3,
+      "2026": 1
+    }
   },
   {
     "title": "Descriptive Accuracy in Explanations: The Case of Probabilistic Classifiers",
@@ -1027,7 +1260,13 @@
     "venue_full": "Scalable Uncertainty Management - 15th International Conference, SUM 2022, Paris, France, October 17-19, 2022, Proceedings",
     "category": "conference",
     "doi": "10.1007/978-3-031-18843-5_19",
-    "url": "https://doi.org/10.1007/978-3-031-18843-5_19"
+    "url": "https://doi.org/10.1007/978-3-031-18843-5_19",
+    "citationCount": 4,
+    "citationsPerYear": {
+      "2023": 2,
+      "2024": 1,
+      "2025": 1
+    }
   },
   {
     "title": "Explaining Causal Models with Argumentation: the Case of Bi-variate Reinforcement",
@@ -1057,7 +1296,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2208.00316",
-    "url": "https://doi.org/10.48550/arXiv.2208.00316"
+    "url": "https://doi.org/10.48550/arXiv.2208.00316",
+    "citationCount": 4,
+    "citationsPerYear": {
+      "2022": 1,
+      "2023": 1,
+      "2025": 2
+    }
   },
   {
     "title": "On the Tradeoff Between Correctness and Completeness in Argumentative Explainable AI",
@@ -1087,7 +1332,13 @@
     "venue_full": "CoRR",
     "category": "preprint",
     "doi": "10.48550/ARXIV.2205.09620",
-    "url": "https://doi.org/10.48550/arXiv.2205.09620"
+    "url": "https://doi.org/10.48550/arXiv.2205.09620",
+    "citationCount": 4,
+    "citationsPerYear": {
+      "2022": 1,
+      "2023": 1,
+      "2025": 2
+    }
   },
   {
     "title": "Argumentative explanations for interactive recommendations",
@@ -1097,7 +1348,16 @@
     "venue_full": "Artif. Intell.",
     "category": "journal",
     "doi": "10.1016/J.ARTINT.2021.103506",
-    "url": "https://doi.org/10.1016/j.artint.2021.103506"
+    "url": "https://doi.org/10.1016/j.artint.2021.103506",
+    "citationCount": 53,
+    "citationsPerYear": {
+      "2021": 3,
+      "2022": 15,
+      "2023": 11,
+      "2024": 13,
+      "2025": 8,
+      "2026": 2
+    }
   },
   {
     "title": "Forging Argumentative Explanations from Causal Models",
@@ -1127,6 +1387,13 @@
     "venue_full": "AIxIA 2021 - Advances in Artificial Intelligence - 20th International Conference of the Italian Association for Artificial Intelligence, Virtual Event, December 1-3, 2021, Revised Selected Papers",
     "category": "conference",
     "doi": "10.1007/978-3-031-08421-8_30",
-    "url": "https://doi.org/10.1007/978-3-031-08421-8_30"
+    "url": "https://doi.org/10.1007/978-3-031-08421-8_30",
+    "citationCount": 12,
+    "citationsPerYear": {
+      "2022": 1,
+      "2023": 6,
+      "2024": 3,
+      "2025": 2
+    }
   }
 ]
