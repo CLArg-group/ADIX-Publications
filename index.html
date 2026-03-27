@@ -158,6 +158,7 @@ body {
   transition: border-color 0.2s;
 }
 .search-box input:focus { border-color: var(--imperial); }
+mark { background: #ffe066; color: inherit; padding: 0 1px; border-radius: 2px; }
 .search-box input::placeholder { color: var(--ink-muted); font-weight: 300; }
 .search-icon {
   position: absolute;
@@ -821,16 +822,17 @@ function renderPapers() {
   years.forEach(year => {
     html += `<div class="year-group"><h2 class="year-heading">${year}</h2>`;
     byYear[year].forEach((p, i) => {
+      const titleHtml = highlight(p.title);
       const titleLink = p.url
-        ? `<a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a>`
-        : esc(p.title);
+        ? `<a href="${p.url}" target="_blank" rel="noopener">${titleHtml}</a>`
+        : titleHtml;
       const catClass = 'cat-' + p.category;
       html += `<div class="paper" style="animation-delay:${i * 0.025}s">
         <div class="paper-title">${titleLink}</div>
-        <div class="paper-authors">${esc(p.authors)}</div>
+        <div class="paper-authors">${highlight(p.authors)}</div>
         <div class="paper-meta">
           <span class="paper-category ${catClass}">${catPaperLabels[p.category] || p.category}</span>
-          <span class="paper-venue">${esc(baseVenue(p.venue))}</span>
+          <span class="paper-venue">${highlight(baseVenue(p.venue))}</span>
           <button class="edit-btn" onclick="openEdit(${PAPERS.indexOf(p)})" title="Edit"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.5 1.5l3 3L5 14H2v-3L11.5 1.5z"/></svg>Edit</button>
           <a class="scholar-btn" href="${scholarUrl(p.title)}" target="_blank" rel="noopener" title="Search on Google Scholar">
             <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3z" fill="#4285f4"/><circle cx="12" cy="13" r="3.5" fill="#4285f4" opacity="0.55"/></svg>
@@ -848,6 +850,13 @@ function esc(s) {
   const d = document.createElement('div');
   d.textContent = s;
   return d.innerHTML;
+}
+
+function highlight(s) {
+  const safe = esc(s);
+  if (!searchQuery) return safe;
+  const q = searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return safe.replace(new RegExp(q, 'gi'), m => `<mark>${m}</mark>`);
 }
 
 function render() {
