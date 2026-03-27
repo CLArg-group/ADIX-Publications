@@ -255,7 +255,15 @@ mark { background: #ffd740; color: #1a1100; padding: 0 3px; border-radius: 2px; 
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-right: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s;
 }
+.year-label:hover { color: var(--imperial); }
+.year-label.has-active { color: var(--imperial); }
 .year-btn {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 0.8rem;
@@ -855,12 +863,18 @@ function renderYears() {
   const row = document.getElementById('yearRow');
   const yearCounts = {};
   PAPERS.forEach(p => { yearCounts[p.year] = (yearCounts[p.year] || 0) + 1; });
-  let html = '<span class="year-label">Year</span>';
+  const hasActive = activeYears.size > 0;
+  let html = `<button class="year-label${hasActive ? ' has-active' : ''}" id="yearLabelBtn">Year${hasActive ? ' ×' : ''}</button>`;
   allYears.forEach(y => {
     const active = activeYears.has(y) ? ' active' : '';
     html += `<button class="year-btn${active}" data-year="${y}">${y}<span class="count">${yearCounts[y] || 0}</span></button>`;
   });
   row.innerHTML = html;
+
+  document.getElementById('yearLabelBtn').addEventListener('click', () => {
+    activeYears.clear();
+    render();
+  });
 
   row.querySelectorAll('.year-btn').forEach(btn => {
     btn.addEventListener('click', () => {
