@@ -494,6 +494,25 @@ mark { background: #ffd740; color: #1a1100; padding: 0 3px; border-radius: 2px; 
 .scholar-btn:hover { background: rgba(66, 133, 244, 0.08); color: #4285f4; }
 .scholar-btn svg { width: 13px; height: 13px; }
 
+.paper-citations {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+.cite-svg rect {
+  fill: var(--imperial);
+  opacity: 0.45;
+  transition: opacity 0.15s;
+}
+.cite-svg rect:hover { opacity: 0.8; }
+.cite-total {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  font-weight: 300;
+  white-space: nowrap;
+}
+
 /* ===== NO RESULTS ===== */
 .no-results {
   text-align: center;
@@ -1016,11 +1035,37 @@ function renderPapers() {
             Scholar
           </a>
         </div>
+        ${renderCitationChart(p)}
       </div>`;
     });
     html += '</div>';
   });
   container.innerHTML = html;
+}
+
+function renderCitationChart(p) {
+  if (!p.citationsPerYear) return '';
+  const entries = Object.entries(p.citationsPerYear).sort((a, b) => a[0] - b[0]);
+  if (entries.length === 0) return '';
+  const counts = entries.map(e => e[1]);
+  const maxC = Math.max(...counts);
+  if (maxC === 0) return '';
+
+  const bw = 7, gap = 2, h = 34;
+  const w = entries.length * (bw + gap) - gap;
+  const total = counts.reduce((a, b) => a + b, 0);
+
+  const bars = entries.map(([year, count], i) => {
+    const bh = Math.max(2, Math.round(count / maxC * h));
+    const x = i * (bw + gap);
+    const y = h - bh;
+    return `<rect x="${x}" y="${y}" width="${bw}" height="${bh}" rx="1"><title>${year}: ${count}</title></rect>`;
+  }).join('');
+
+  return `<div class="paper-citations">
+    <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="cite-svg">${bars}</svg>
+    <span class="cite-total">${total} citation${total !== 1 ? 's' : ''}</span>
+  </div>`;
 }
 
 function esc(s) {
