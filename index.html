@@ -1237,20 +1237,22 @@ async function loadPapersFromStorage() {
   // 1. Fetch base data from papers.json
   let basePapers = [];
   try {
-    const resp = await fetch('papers.json');
+    const resp = await fetch(`papers.json?v=${Date.now()}`, { cache: 'no-store' });
     if (resp.ok) basePapers = await resp.json();
   } catch(e) { /* fetch failed, will use localStorage only */ }
 
-  // 2. Check localStorage for edits
+  // 2. Prefer the published JSON; use localStorage only as an offline fallback.
   try {
-    const stored = localStorage.getItem('adix-papers');
-    if (stored) {
+    if (basePapers.length > 0) {
+      PAPERS.length = 0;
+      basePapers.forEach(p => PAPERS.push(p));
+      localStorage.setItem('adix-papers', JSON.stringify(PAPERS));
+    } else {
+      const stored = localStorage.getItem('adix-papers');
+      if (!stored) return;
       const parsed = JSON.parse(stored);
       PAPERS.length = 0;
       parsed.forEach(p => PAPERS.push(p));
-    } else if (basePapers.length > 0) {
-      PAPERS.length = 0;
-      basePapers.forEach(p => PAPERS.push(p));
     }
   } catch(e) {
     if (basePapers.length > 0) {
