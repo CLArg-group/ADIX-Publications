@@ -1,23 +1,93 @@
 [
   {
-    "title": "ArgLLM-App: an interactive system for argumentative reasoning with large language models",
-    "authors": "Dejl A, Gorur D, Toni F",
+    "title": "Argumentative Debates for Transparent Bias Detection",
+    "authors": "Hamed Ayoobi, Nico Potyka, Anna Rapberger, Francesca Toni",
     "year": 2026,
-    "venue": "AAMAS 2026",
-    "venue_full": "AAMAS 2026",
+    "venue": "AAAI 2026",
+    "venue_full": "Fortieth AAAI Conference on Artificial Intelligence, Thirty-Eighth Conference on Innovative Applications of Artificial Intelligence, Sixteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2026, Singapore, January 20-27, 2026",
     "category": "conference",
-    "doi": "",
-    "url": ""
+    "doi": "10.1609/AAAI.V40I23.38965",
+    "url": "https://doi.org/10.1609/aaai.v40i23.38965"
   },
   {
-    "title": "Strength change explanations in quantitative argumentation",
-    "authors": "Kampik T, Yin X, Potyka N, Toni F",
+    "title": "Heterogeneous Graph Neural Networks for Assumption-Based Argumentation",
+    "authors": "Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni",
     "year": 2026,
-    "venue": "AAMAS 2026",
-    "venue_full": "AAMAS 2026",
+    "venue": "AAAI 2026",
+    "venue_full": "Fortieth AAAI Conference on Artificial Intelligence, Thirty-Eighth Conference on Innovative Applications of Artificial Intelligence, Sixteenth Symposium on Educational Advances in Artificial Intelligence, AAAI 2026, Singapore, January 20-27, 2026",
     "category": "conference",
-    "doi": "",
-    "url": ""
+    "doi": "10.1609/AAAI.V40I23.38985",
+    "url": "https://doi.org/10.1609/aaai.v40i23.38985"
+  },
+  {
+    "title": "Selective Fine-Tuning for Targeted and Robust Concept Unlearning",
+    "authors": "Mansi, Avinash Kori, Francesca Toni, Soteris Demetriou",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2602.07919",
+    "url": "https://doi.org/10.48550/arXiv.2602.07919"
+  },
+  {
+    "title": "Constrained Assumption-Based Argumentation Frameworks",
+    "authors": "Emanuele De Angelis, Fabio Fioravanti, Maria Chiara Meo, Alberto Pettorossi, Maurizio Proietti, Francesca Toni",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2602.13135",
+    "url": "https://doi.org/10.48550/arXiv.2602.13135"
+  },
+  {
+    "title": "From User Preferences to Base Score Extraction Functions in Gradual Argumentation (with Appendix)",
+    "authors": "Aniol Civit, Antonio Rago, Antonio Andriella, Guillem Alenyà, Francesca Toni",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2602.14674",
+    "url": "https://doi.org/10.48550/arXiv.2602.14674"
+  },
+  {
+    "title": "ArgLLM-App: An Interactive System for Argumentative Reasoning with Large Language Models",
+    "authors": "Adam Dejl, Deniz Gorur, Francesca Toni",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2602.24172",
+    "url": "https://doi.org/10.48550/arXiv.2602.24172"
+  },
+  {
+    "title": "Strength Change Explanations in Quantitative Argumentation",
+    "authors": "Timotheus Kampik, Xiang Yin, Nico Potyka, Francesca Toni",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2603.00008",
+    "url": "https://doi.org/10.48550/arXiv.2603.00008"
+  },
+  {
+    "title": "Argumentation for Explainable and Globally Contestable Decision Support with LLMs",
+    "authors": "Adam Dejl, Matthew Williams, Francesca Toni",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2603.14643",
+    "url": "https://doi.org/10.48550/arXiv.2603.14643"
+  },
+  {
+    "title": "Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us",
+    "authors": "Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2603.15946",
+    "url": "https://doi.org/10.48550/arXiv.2603.15946"
   },
   {
     "title": "A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs",
