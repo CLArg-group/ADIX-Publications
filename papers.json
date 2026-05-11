@@ -70,6 +70,16 @@
     "url": "https://doi.org/10.1609/aaai.v40i23.38985"
   },
   {
+    "title": "Retrieval- and Argumentation-Enhanced Multi-Agent LLMs for Judgmental Forecasting",
+    "authors": "Deniz Gorur, Antonio Rago, Francesca Toni",
+    "year": 2026,
+    "venue": "AAMAS",
+    "venue_full": "AAMAS",
+    "category": "conference",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.24303"
+  },
+  {
     "title": "Selective Fine-Tuning for Targeted and Robust Concept Unlearning",
     "authors": "Mansi, Avinash Kori, Francesca Toni, Soteris Demetriou",
     "year": 2026,
@@ -188,6 +198,16 @@
     "category": "workshop",
     "doi": "",
     "url": "https://ceur-ws.org/Vol-4066/paper_3.pdf"
+  },
+  {
+    "title": "Argumentative Ensembling for Robust Recourse under Model Multiplicity",
+    "authors": "Junqi Jiang, Antonio Rago, Francesco Leofante, Francesca Toni",
+    "year": 2025,
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "category": "preprint",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.20260"
   },
   {
     "title": "Argumentative Large Language Models for Explainable and Contestable Claim Verification",
@@ -1170,6 +1190,16 @@
     "category": "workshop",
     "doi": "10.48550/ARXIV.2208.00316",
     "url": "https://doi.org/10.48550/arXiv.2208.00316"
+  },
+  {
+    "title": "On Monotonicity of Dispute Trees as Explanations for Case-Based Reasoning with Abstract Argumentation",
+    "authors": "Guilherme Paulino-Passos, Francesca Toni",
+    "year": 2022,
+    "venue": "ArgXAI",
+    "venue_full": "ArgXAI",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3209/8465.pdf"
   },
   {
     "title": "On the Tradeoff Between Correctness and Completeness in Argumentative Explainable AI",
