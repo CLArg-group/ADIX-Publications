@@ -170,6 +170,16 @@
     "citationCount": 0
   },
   {
+    "title": "Argumentation-based Explainable Recommender System with ARES",
+    "authors": "Riccardo Felici, Emanuele De Angelis, Alessio Ferrato, Maurizio Proietti, Giuseppe Sansonetti, Francesca Toni",
+    "year": 2025,
+    "venue": "ArgXAI",
+    "venue_full": "ArgXAI",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-4066/paper_3.pdf"
+  },
+  {
     "title": "Argumentative Large Language Models for Explainable and Contestable Claim Verification",
     "authors": "Gabriel Freedman, Adam Dejl, Deniz Gorur, Xiang Yin, Antonio Rago, Francesca Toni",
     "year": 2025,
