@@ -1,5 +1,25 @@
 [
   {
+    "title": "ArgLLM-App: An Interactive System for Argumentative Reasoning with Large Language Models",
+    "authors": "Adam Dejl, Deniz Gorur, Francesca Toni",
+    "year": 2026,
+    "venue": "AAMAS",
+    "venue_full": "AAMAS",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2602.24172",
+    "url": "https://doi.org/10.48550/arXiv.2602.24172"
+  },
+  {
+    "title": "Argumentation for Explainable and Globally Contestable Decision Support with LLMs",
+    "authors": "Adam Dejl, Matthew Williams, Francesca Toni",
+    "year": 2026,
+    "venue": "KR",
+    "venue_full": "KR",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2603.14643",
+    "url": "https://doi.org/10.48550/arXiv.2603.14643"
+  },
+  {
     "title": "Argumentative Debates for Transparent Bias Detection",
     "authors": "Hamed Ayoobi, Nico Potyka, Anna Rapberger, Francesca Toni",
     "year": 2026,
@@ -8,6 +28,36 @@
     "category": "conference",
     "doi": "10.1609/AAAI.V40I23.38965",
     "url": "https://doi.org/10.1609/aaai.v40i23.38965"
+  },
+  {
+    "title": "Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us",
+    "authors": "Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_full": "CoRR",
+    "category": "preprint",
+    "doi": "10.48550/ARXIV.2603.15946",
+    "url": "https://doi.org/10.48550/arXiv.2603.15946"
+  },
+  {
+    "title": "Constrained Assumption-Based Argumentation Frameworks",
+    "authors": "Emanuele De Angelis, Fabio Fioravanti, Maria Chiara Meo, Alberto Pettorossi, Maurizio Proietti, Francesca Toni",
+    "year": 2026,
+    "venue": "AAMAS",
+    "venue_full": "AAMAS",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2602.13135",
+    "url": "https://doi.org/10.48550/arXiv.2602.13135"
+  },
+  {
+    "title": "From User Preferences to Base Score Extraction Functions in Gradual Argumentation (with Appendix)",
+    "authors": "Aniol Civit, Antonio Rago, Antonio Andriella, Guillem Alenyà, Francesca Toni",
+    "year": 2026,
+    "venue": "AAMAS",
+    "venue_full": "AAMAS",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2602.14674",
+    "url": "https://doi.org/10.48550/arXiv.2602.14674"
   },
   {
     "title": "Heterogeneous Graph Neural Networks for Assumption-Based Argumentation",
@@ -30,64 +80,14 @@
     "url": "https://doi.org/10.48550/arXiv.2602.07919"
   },
   {
-    "title": "Constrained Assumption-Based Argumentation Frameworks",
-    "authors": "Emanuele De Angelis, Fabio Fioravanti, Maria Chiara Meo, Alberto Pettorossi, Maurizio Proietti, Francesca Toni",
-    "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2602.13135",
-    "url": "https://doi.org/10.48550/arXiv.2602.13135"
-  },
-  {
-    "title": "From User Preferences to Base Score Extraction Functions in Gradual Argumentation (with Appendix)",
-    "authors": "Aniol Civit, Antonio Rago, Antonio Andriella, Guillem Alenyà, Francesca Toni",
-    "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2602.14674",
-    "url": "https://doi.org/10.48550/arXiv.2602.14674"
-  },
-  {
-    "title": "ArgLLM-App: An Interactive System for Argumentative Reasoning with Large Language Models",
-    "authors": "Adam Dejl, Deniz Gorur, Francesca Toni",
-    "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2602.24172",
-    "url": "https://doi.org/10.48550/arXiv.2602.24172"
-  },
-  {
     "title": "Strength Change Explanations in Quantitative Argumentation",
     "authors": "Timotheus Kampik, Xiang Yin, Nico Potyka, Francesca Toni",
     "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "AAMAS",
+    "venue_full": "AAMAS",
+    "category": "conference",
     "doi": "10.48550/ARXIV.2603.00008",
     "url": "https://doi.org/10.48550/arXiv.2603.00008"
-  },
-  {
-    "title": "Argumentation for Explainable and Globally Contestable Decision Support with LLMs",
-    "authors": "Adam Dejl, Matthew Williams, Francesca Toni",
-    "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2603.14643",
-    "url": "https://doi.org/10.48550/arXiv.2603.14643"
-  },
-  {
-    "title": "Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us",
-    "authors": "Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh",
-    "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2603.15946",
-    "url": "https://doi.org/10.48550/arXiv.2603.15946"
   },
   {
     "title": "A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs",
@@ -154,17 +154,6 @@
     }
   },
   {
-    "title": "Argumentative LLMs for Legal Information Entailment",
-    "authors": "Charlie Lindsay, Francesca Toni, Tien Dat Nguyen, Tan Minh Nguyen, Trang Pham Ngoc Anh, Quang-Huy Chu, Hoang Nhat Nguyen, Le Minh Nguyen",
-    "year": 2025,
-    "venue": "JURIX 2025",
-    "venue_full": "Legal Knowledge and Information Systems - JURIX 2025: The Thirty-eighth Annual Conference, Turin, Italy, 9-11 December 2025",
-    "category": "conference",
-    "doi": "10.3233/FAIA251582",
-    "url": "https://doi.org/10.3233/FAIA251582",
-    "citationCount": 0
-  },
-  {
     "title": "Argumentative Large Language Models for Explainable and Contestable Claim Verification",
     "authors": "Gabriel Freedman, Adam Dejl, Deniz Gorur, Xiang Yin, Antonio Rago, Francesca Toni",
     "year": 2025,
@@ -179,6 +168,17 @@
       "2025": 14,
       "2026": 7
     }
+  },
+  {
+    "title": "Argumentative LLMs for Legal Information Entailment",
+    "authors": "Charlie Lindsay, Francesca Toni, Tien Dat Nguyen, Tan Minh Nguyen, Trang Pham Ngoc Anh, Quang-Huy Chu, Hoang Nhat Nguyen, Le Minh Nguyen",
+    "year": 2025,
+    "venue": "JURIX 2025",
+    "venue_full": "Legal Knowledge and Information Systems - JURIX 2025: The Thirty-eighth Annual Conference, Turin, Italy, 9-11 December 2025",
+    "category": "conference",
+    "doi": "10.3233/FAIA251582",
+    "url": "https://doi.org/10.3233/FAIA251582",
+    "citationCount": 0
   },
   {
     "title": "Argumentative review aggregation and dialogical explanations",
@@ -538,6 +538,16 @@
     }
   },
   {
+    "title": "A little of that human touch: achieving human-centric explainable AI via argumentation",
+    "authors": "Rago A, Toni F",
+    "year": 2024,
+    "venue": "IJCAI 2024",
+    "venue_full": "IJCAI 2024 (Invited/Survey Paper)",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
     "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
     "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Francesca Toni, Tran Cao Son, William Yeoh",
     "year": 2024,
@@ -550,16 +560,6 @@
     "citationsPerYear": {
       "2025": 1
     }
-  },
-  {
-    "title": "A little of that human touch: achieving human-centric explainable AI via argumentation",
-    "authors": "Rago A, Toni F",
-    "year": 2024,
-    "venue": "IJCAI 2024",
-    "venue_full": "IJCAI 2024 (Invited/Survey Paper)",
-    "category": "conference",
-    "doi": "",
-    "url": ""
   },
   {
     "title": "Analyzing Key Neurons in Large Language Models",
@@ -813,6 +813,16 @@
     "url": "https://ceur-ws.org/Vol-3835/paper12.pdf"
   },
   {
+    "title": "On the expressive power of assumption-based argumentation",
+    "authors": "Rapberger A, Toni F, Ulbricht M",
+    "year": 2024,
+    "venue": "COMMA 2024",
+    "venue_full": "Likely KR or COMMA 2024",
+    "category": "conference",
+    "doi": "",
+    "url": ""
+  },
+  {
     "title": "On the Robustness of Argumentative Explanations",
     "authors": "Anna Rapberger, Francesca Toni",
     "year": 2024,
@@ -825,16 +835,6 @@
     "citationsPerYear": {
       "2025": 1
     }
-  },
-  {
-    "title": "On the expressive power of assumption-based argumentation",
-    "authors": "Rapberger A, Toni F, Ulbricht M",
-    "year": 2024,
-    "venue": "COMMA 2024",
-    "venue_full": "Likely KR or COMMA 2024",
-    "category": "conference",
-    "doi": "",
-    "url": ""
   },
   {
     "title": "PeerArg: Argumentative Peer Review with LLMs",
@@ -932,16 +932,6 @@
     "url": "https://ceur-ws.org/Vol-3437/paper3LPLR.pdf"
   },
   {
-    "title": "A Roadmap for Neuro-argumentative Learning",
-    "authors": "Maurizio Proietti, Francesca Toni",
-    "year": 2023,
-    "venue": "NeSy 2023",
-    "venue_full": "Proceedings of the 17th International Workshop on Neural-Symbolic Learning and Reasoning, La Certosa di Pontignano, Siena, Italy, July 3-5, 2023",
-    "category": "workshop",
-    "doi": "",
-    "url": "https://ceur-ws.org/Vol-3432/paper1.pdf"
-  },
-  {
     "title": "A negation detection assessment of GPTs: analysis with the xNot360 dataset",
     "authors": "Ha-Thanh Nguyen, Randy Goebel, Francesca Toni, Kostas Stathis, Ken Satoh",
     "year": 2023,
@@ -957,6 +947,16 @@
       "2025": 4,
       "2026": 1
     }
+  },
+  {
+    "title": "A Roadmap for Neuro-argumentative Learning",
+    "authors": "Maurizio Proietti, Francesca Toni",
+    "year": 2023,
+    "venue": "NeSy 2023",
+    "venue_full": "Proceedings of the 17th International Workshop on Neural-Symbolic Learning and Reasoning, La Certosa di Pontignano, Siena, Italy, July 3-5, 2023",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3432/paper1.pdf"
   },
   {
     "title": "ABA Learning via ASP",
