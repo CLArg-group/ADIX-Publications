@@ -140,20 +140,6 @@
     "citationCount": 0
   },
   {
-    "title": "Argumentative Debates for Transparent Bias Detection [Technical Report]",
-    "authors": "Hamed Ayoobi, Nico Potyka, Anna Rapberger, Francesca Toni",
-    "year": 2025,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2508.04511",
-    "url": "https://doi.org/10.48550/arXiv.2508.04511",
-    "citationCount": 1,
-    "citationsPerYear": {
-      "2026": 1
-    }
-  },
-  {
     "title": "Argumentative Large Language Models for Explainable and Contestable Claim Verification",
     "authors": "Gabriel Freedman, Adam Dejl, Deniz Gorur, Xiang Yin, Antonio Rago, Francesca Toni",
     "year": 2025,
@@ -659,21 +645,6 @@
     "url": "https://www.ijcai.org/proceedings/2024/401"
   },
   {
-    "title": "Explaining Arguments' Strength: Unveiling the Role of Attacks and Supports (Technical Report)",
-    "authors": "Xiang Yin, Nico Potyka, Francesca Toni",
-    "year": 2024,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2404.14304",
-    "url": "https://doi.org/10.48550/arXiv.2404.14304",
-    "citationCount": 8,
-    "citationsPerYear": {
-      "2024": 3,
-      "2025": 4
-    }
-  },
-  {
     "title": "Explaining Image Classifiers with Visual Debates",
     "authors": "Avinash Kori, Ben Glocker, Francesca Toni",
     "year": 2024,
@@ -1147,21 +1118,6 @@
     }
   },
   {
-    "title": "ProtoArgNet: Interpretable Image Classification with Super-Prototypes and Argumentation [Technical Report]",
-    "authors": "Hamed Ayoobi, Nico Potyka, Francesca Toni",
-    "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2311.15438",
-    "url": "https://doi.org/10.48550/arXiv.2311.15438",
-    "citationCount": 7,
-    "citationsPerYear": {
-      "2025": 5,
-      "2026": 1
-    }
-  },
-  {
     "title": "Provably Robust and Plausible Counterfactual Explanations for Neural Networks via Robust Optimisation",
     "authors": "Junqi Jiang, Jianglin Lan, Francesco Leofante, Antonio Rago, Francesca Toni",
     "year": 2023,
@@ -1180,22 +1136,6 @@
     "category": "conference",
     "doi": "",
     "url": ""
-  },
-  {
-    "title": "Recourse under Model Multiplicity via Argumentative Ensembling (Technical Report)",
-    "authors": "Junqi Jiang, Antonio Rago, Francesco Leofante, Francesca Toni",
-    "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2312.15097",
-    "url": "https://doi.org/10.48550/arXiv.2312.15097",
-    "citationCount": 16,
-    "citationsPerYear": {
-      "2024": 6,
-      "2025": 8,
-      "2026": 1
-    }
   },
   {
     "title": "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values",
@@ -1217,17 +1157,6 @@
     "category": "conference",
     "doi": "10.3233/FAIA230265",
     "url": "https://doi.org/10.3233/FAIA230265"
-  },
-  {
-    "title": "Technical Report on the Learning of Case Relevance in Case-Based Reasoning with Abstract Argumentation",
-    "authors": "Guilherme Paulino-Passos, Francesca Toni",
-    "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2310.19607",
-    "url": "https://doi.org/10.48550/arXiv.2310.19607",
-    "citationCount": 0
   },
   {
     "title": "Understanding ProbLog as Probabilistic Argumentation",
