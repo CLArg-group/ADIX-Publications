@@ -401,11 +401,11 @@
     "title": "Object-Centric Case-Based Reasoning via Argumentation",
     "authors": "Gabriel de Olim Gaul, Adam Gould, Avinash Kori, Francesca Toni",
     "year": 2025,
-    "venue": "ArgXAI 2025",
-    "venue_full": "Proceedings of the 3rd International Workshop on Argumentation for eXplainable AI (ArgXAI 2025) co-located with the 28th European Conference on Artificial Intelligence (ECAI 2025), Bologna, Italy, October 26, 2025",
+    "venue": "NeSy",
+    "venue_full": "NeSy",
     "category": "workshop",
     "doi": "",
-    "url": "https://ceur-ws.org/Vol-4066/paper_5.pdf"
+    "url": "https://proceedings.mlr.press/v284/gould25a.html"
   },
   {
     "title": "Object-Centric Neuro-Argumentative Learning",
@@ -415,7 +415,7 @@
     "venue_full": "NeSy",
     "category": "conference",
     "doi": "10.48550/ARXIV.2506.14577",
-    "url": "https://doi.org/10.48550/arXiv.2506.14577"
+    "url": "https://proceedings.mlr.press/v284/jacob25a.html"
   },
   {
     "title": "On Gradual Semantics for Assumption-Based Argumentation",
@@ -1044,9 +1044,9 @@
     "title": "PySpArX - A Python library for generating Sparse Argumentative eXplanations for neural networks",
     "authors": "Mihailescu I, Weng A, Sharma S, Ghitu M, Grewal D, Chew K, Ayoobi H, Potyka N, Toni F",
     "year": 2023,
-    "venue": "ICLP 2023",
-    "venue_full": "ICLP 2023 (system description)",
-    "category": "conference",
+    "venue": "EPTCS",
+    "venue_full": "EPTCS",
+    "category": "journal",
     "doi": "",
     "url": ""
   },
