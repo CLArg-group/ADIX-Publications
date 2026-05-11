@@ -90,6 +90,26 @@
     "url": "https://doi.org/10.48550/arXiv.2603.00008"
   },
   {
+    "title": "Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders",
+    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
+    "year": 2026,
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2510.04855",
+    "url": "https://doi.org/10.48550/arXiv.2510.04855"
+  },
+  {
+    "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
+    "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Francesca Toni, Tran Cao Son, William Yeoh",
+    "year": 2025,
+    "venue": "KR",
+    "venue_full": "KR",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2410.22209",
+    "url": "https://doi.org/10.48550/arXiv.2410.22209"
+  },
+  {
     "title": "A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs",
     "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Son Tran, Francesca Toni, William Yeoh",
     "year": 2025,
@@ -127,6 +147,16 @@
     "citationsPerYear": {
       "2025": 3
     }
+  },
+  {
+    "title": "Analyzing Key Neurons in Large Language Models",
+    "authors": "Lihu Chen, Adam Dejl, Francesca Toni",
+    "year": 2025,
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2406.10868",
+    "url": "https://doi.org/10.48550/arXiv.2406.10868"
   },
   {
     "title": "Argtumour: integrating large language models and computational argumentation to discuss treatment options for high-grade glioma",
@@ -361,15 +391,11 @@
     "title": "Neuro-Argumentative Learning with Case-Based Reasoning",
     "authors": "Adam Gould, Francesca Toni",
     "year": 2025,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "NeSy",
+    "venue_full": "NeSy",
+    "category": "conference",
     "doi": "10.48550/ARXIV.2505.15742",
-    "url": "https://doi.org/10.48550/arXiv.2505.15742",
-    "citationCount": 1,
-    "citationsPerYear": {
-      "2025": 1
-    }
+    "url": "https://doi.org/10.48550/arXiv.2505.15742"
   },
   {
     "title": "Object-Centric Case-Based Reasoning via Argumentation",
@@ -385,15 +411,11 @@
     "title": "Object-Centric Neuro-Argumentative Learning",
     "authors": "Abdul Rahman Jacob, Avinash Kori, Emanuele De Angelis, Ben Glocker, Maurizio Proietti, Francesca Toni",
     "year": 2025,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "NeSy",
+    "venue_full": "NeSy",
+    "category": "conference",
     "doi": "10.48550/ARXIV.2506.14577",
-    "url": "https://doi.org/10.48550/arXiv.2506.14577",
-    "citationCount": 1,
-    "citationsPerYear": {
-      "2025": 1
-    }
+    "url": "https://doi.org/10.48550/arXiv.2506.14577"
   },
   {
     "title": "On Gradual Semantics for Assumption-Based Argumentation",
@@ -445,16 +467,11 @@
     "title": "Representation Consistency for Accurate and Coherent LLM Answer Aggregation",
     "authors": "Junqi Jiang, Tom Bewley, Salim I. Amoukou, Francesco Leofante, Antonio Rago, Saumitra Mishra, Francesca Toni",
     "year": 2025,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "NeurIPS",
+    "venue_full": "NeurIPS",
+    "category": "conference",
     "doi": "10.48550/ARXIV.2506.21590",
-    "url": "https://doi.org/10.48550/arXiv.2506.21590",
-    "citationCount": 2,
-    "citationsPerYear": {
-      "2025": 1,
-      "2026": 1
-    }
+    "url": "https://doi.org/10.48550/arXiv.2506.21590"
   },
   {
     "title": "Shapley-PC: Constraint-based Causal Structure Learning with a Shapley Inspired Framework",
@@ -465,17 +482,6 @@
     "category": "conference",
     "doi": "",
     "url": "https://proceedings.mlr.press/v275/russo25a.html"
-  },
-  {
-    "title": "Synthesising Counterfactual Explanations via Label-Conditional Gaussian Mixture Variational Autoencoders",
-    "authors": "Junqi Jiang, Francesco Leofante, Antonio Rago, Francesca Toni",
-    "year": 2025,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2510.04855",
-    "url": "https://doi.org/10.48550/arXiv.2510.04855",
-    "citationCount": 0
   },
   {
     "title": "Using computational argumentation to integrate activity and quality of life data to predict disease progression in patients with high-grade glioma",
@@ -500,36 +506,6 @@
     "citationsPerYear": {
       "2025": 3,
       "2026": 1
-    }
-  },
-  {
-    "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
-    "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Francesca Toni, Tran Cao Son, William Yeoh",
-    "year": 2024,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2410.22209",
-    "url": "https://doi.org/10.48550/arXiv.2410.22209",
-    "citationCount": 1,
-    "citationsPerYear": {
-      "2025": 1
-    }
-  },
-  {
-    "title": "Analyzing Key Neurons in Large Language Models",
-    "authors": "Lihu Chen, Adam Dejl, Francesca Toni",
-    "year": 2024,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2406.10868",
-    "url": "https://doi.org/10.48550/arXiv.2406.10868",
-    "citationCount": 13,
-    "citationsPerYear": {
-      "2024": 3,
-      "2025": 8,
-      "2026": 2
     }
   },
   {
@@ -561,22 +537,6 @@
     "category": "workshop",
     "doi": "",
     "url": "https://ceur-ws.org/Vol-3768/paper4.pdf"
-  },
-  {
-    "title": "Argumentative Large Language Models for Explainable and Contestable Decision-Making",
-    "authors": "Gabriel Freedman, Adam Dejl, Deniz Gorur, Xiang Yin, Antonio Rago, Francesca Toni",
-    "year": 2024,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2405.02079",
-    "url": "https://doi.org/10.48550/arXiv.2405.02079",
-    "citationCount": 28,
-    "citationsPerYear": {
-      "2024": 5,
-      "2025": 14,
-      "2026": 7
-    }
   },
   {
     "title": "CE-QArg: Counterfactual Explanations for Quantitative Bipolar Argumentation Frameworks",
@@ -760,16 +720,11 @@
     "title": "PeerArg: Argumentative Peer Review with LLMs",
     "authors": "Purin Sukpanichnant, Anna Rapberger, Francesca Toni",
     "year": 2024,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "NeLaMKRR@KR",
+    "venue_full": "NeLaMKRR@KR",
+    "category": "workshop",
     "doi": "10.48550/ARXIV.2409.16813",
-    "url": "https://doi.org/10.48550/arXiv.2409.16813",
-    "citationCount": 8,
-    "citationsPerYear": {
-      "2025": 5,
-      "2026": 3
-    }
+    "url": "https://doi.org/10.48550/arXiv.2409.16813"
   },
   {
     "title": "Predicting Human Judgement in Online Debates with Argumentation",
@@ -963,32 +918,11 @@
     "title": "Black-Box Analysis: GPTs Across Time in Legal Textual Entailment Task",
     "authors": "Ha-Thanh Nguyen, Randy Goebel, Francesca Toni, Kostas Stathis, Ken Satoh",
     "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "ISAILD@KSE",
+    "venue_full": "ISAILD@KSE",
+    "category": "workshop",
     "doi": "10.48550/ARXIV.2309.05501",
-    "url": "https://doi.org/10.48550/arXiv.2309.05501",
-    "citationCount": 6,
-    "citationsPerYear": {
-      "2023": 1,
-      "2024": 1,
-      "2025": 4
-    }
-  },
-  {
-    "title": "CAFE: Conflict-Aware Feature-wise Explanations",
-    "authors": "Adam Dejl, Hamed Ayoobi, Matthew Williams, Francesca Toni",
-    "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2310.20363",
-    "url": "https://doi.org/10.48550/arXiv.2310.20363",
-    "citationCount": 2,
-    "citationsPerYear": {
-      "2024": 1,
-      "2025": 1
-    }
+    "url": "https://doi.org/10.48550/arXiv.2309.05501"
   },
   {
     "title": "Causal Discovery and Knowledge Injection for Contestable Neural Networks",
@@ -1011,17 +945,11 @@
     "title": "DR-HAI: Argumentation-based Dialectical Reconciliation in Human-AI Interactions",
     "authors": "Stylianos Loukas Vasileiou, Ashwin Kumar, William Yeoh, Tran Cao Son, Francesca Toni",
     "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "HAXP@ICAPS",
+    "venue_full": "HAXP@ICAPS",
+    "category": "workshop",
     "doi": "10.48550/ARXIV.2306.14694",
-    "url": "https://doi.org/10.48550/arXiv.2306.14694",
-    "citationCount": 6,
-    "citationsPerYear": {
-      "2024": 3,
-      "2025": 2,
-      "2026": 1
-    }
+    "url": "https://doi.org/10.48550/arXiv.2306.14694"
   },
   {
     "title": "Explaining Classifiers' Outputs with Causal Models and Argumentation",
@@ -1088,21 +1016,6 @@
     "url": "https://doi.org/10.24963/kr.2023/57"
   },
   {
-    "title": "Learning Assumption-based Argumentation Frameworks",
-    "authors": "Maurizio Proietti, Francesca Toni",
-    "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2305.15921",
-    "url": "https://doi.org/10.48550/arXiv.2305.15921",
-    "citationCount": 6,
-    "citationsPerYear": {
-      "2023": 3,
-      "2024": 2
-    }
-  },
-  {
     "title": "Learning Case Relevance in Case-Based Reasoning with Abstract Argumentation",
     "authors": "Guilherme Paulino-Passos, Francesca Toni",
     "year": 2023,
@@ -1138,17 +1051,6 @@
     "url": ""
   },
   {
-    "title": "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values",
-    "authors": "Fabrizio Russo, Francesca Toni",
-    "year": 2023,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2312.11582",
-    "url": "https://doi.org/10.48550/arXiv.2312.11582",
-    "citationCount": 1
-  },
-  {
     "title": "SpArX: Sparse Argumentative Explanations for Neural Networks",
     "authors": "Hamed Ayoobi, Nico Potyka, Francesca Toni",
     "year": 2023,
@@ -1171,23 +1073,6 @@
     "citationsPerYear": {
       "2024": 1,
       "2025": 1
-    }
-  },
-  {
-    "title": "Causal Discovery and Injection for Feed-Forward Neural Networks",
-    "authors": "Fabrizio Russo, Francesca Toni",
-    "year": 2022,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2205.09787",
-    "url": "https://doi.org/10.48550/arXiv.2205.09787",
-    "citationCount": 9,
-    "citationsPerYear": {
-      "2023": 1,
-      "2024": 4,
-      "2025": 3,
-      "2026": 1
     }
   },
   {
@@ -1227,20 +1112,24 @@
     "url": "https://aclanthology.org/2022.lrec-1.655"
   },
   {
+    "title": "Learning Assumption-based Argumentation Frameworks",
+    "authors": "Maurizio Proietti, Francesca Toni",
+    "year": 2022,
+    "venue": "ILP",
+    "venue_full": "ILP",
+    "category": "conference",
+    "doi": "10.48550/ARXIV.2305.15921",
+    "url": "https://doi.org/10.48550/arXiv.2305.15921"
+  },
+  {
     "title": "On Interactive Explanations as Non-Monotonic Reasoning",
     "authors": "Guilherme Paulino-Passos, Francesca Toni",
     "year": 2022,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "IJCAI-XAI",
+    "venue_full": "IJCAI-XAI",
+    "category": "workshop",
     "doi": "10.48550/ARXIV.2208.00316",
-    "url": "https://doi.org/10.48550/arXiv.2208.00316",
-    "citationCount": 4,
-    "citationsPerYear": {
-      "2022": 1,
-      "2023": 1,
-      "2025": 2
-    }
+    "url": "https://doi.org/10.48550/arXiv.2208.00316"
   },
   {
     "title": "On the Tradeoff Between Correctness and Completeness in Argumentative Explainable AI",
