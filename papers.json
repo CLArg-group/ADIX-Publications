@@ -398,14 +398,24 @@
     "url": "https://doi.org/10.48550/arXiv.2505.15742"
   },
   {
+    "title": "Neuro-Argumentative Learning with Legal Text",
+    "authors": "Petros Vasileiadis, Emanuele De Angelis, Maurizio Proietti, Francesca Toni",
+    "year": 2025,
+    "venue": "ANSyA",
+    "venue_full": "ANSyA",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-4125/paper_22.pdf"
+  },
+  {
     "title": "Object-Centric Case-Based Reasoning via Argumentation",
     "authors": "Gabriel de Olim Gaul, Adam Gould, Avinash Kori, Francesca Toni",
     "year": 2025,
-    "venue": "NeSy",
-    "venue_full": "NeSy",
+    "venue": "ArgXAI",
+    "venue_full": "ArgXAI",
     "category": "workshop",
     "doi": "",
-    "url": "https://proceedings.mlr.press/v284/gould25a.html"
+    "url": "https://arxiv.org/abs/2510.00185"
   },
   {
     "title": "Object-Centric Neuro-Argumentative Learning",
@@ -482,6 +492,16 @@
     "category": "conference",
     "doi": "",
     "url": "https://proceedings.mlr.press/v275/russo25a.html"
+  },
+  {
+    "title": "Transparent Visual Reasoning via Object-Centric Agent Collaboration",
+    "authors": "Benjamin Teoh, Ben Glocker, Francesca Toni, Avinash Kori",
+    "year": 2025,
+    "venue": "ANSyA",
+    "venue_full": "ANSyA",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-4125/paper_20.pdf"
   },
   {
     "title": "Using computational argumentation to integrate activity and quality of life data to predict disease progression in patients with high-grade glioma",
