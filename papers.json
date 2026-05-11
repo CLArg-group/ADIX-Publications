@@ -538,16 +538,6 @@
     }
   },
   {
-    "title": "A little of that human touch: achieving human-centric explainable AI via argumentation",
-    "authors": "Rago A, Toni F",
-    "year": 2024,
-    "venue": "IJCAI 2024",
-    "venue_full": "IJCAI 2024 (Invited/Survey Paper)",
-    "category": "conference",
-    "doi": "",
-    "url": ""
-  },
-  {
     "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
     "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Francesca Toni, Tran Cao Son, William Yeoh",
     "year": 2024,
@@ -586,16 +576,6 @@
     "category": "workshop",
     "doi": "",
     "url": "https://ceur-ws.org/Vol-3768/paper5.pdf"
-  },
-  {
-    "title": "Argumentation and machine learning",
-    "authors": "Rago A, Toni F et al.",
-    "year": 2024,
-    "venue": "Handbook of Formal Argumentation",
-    "venue_full": "Handbook of Formal Argumentation, Vol 2 (book chapter)",
-    "category": "book_chapter",
-    "doi": "",
-    "url": ""
   },
   {
     "title": "Argumentative Causal Discovery",
@@ -813,16 +793,6 @@
     "url": "https://ceur-ws.org/Vol-3835/paper12.pdf"
   },
   {
-    "title": "On the expressive power of assumption-based argumentation",
-    "authors": "Rapberger A, Toni F, Ulbricht M",
-    "year": 2024,
-    "venue": "COMMA 2024",
-    "venue_full": "Likely KR or COMMA 2024",
-    "category": "conference",
-    "doi": "",
-    "url": ""
-  },
-  {
     "title": "On the Robustness of Argumentative Explanations",
     "authors": "Anna Rapberger, Francesca Toni",
     "year": 2024,
@@ -880,16 +850,6 @@
     "category": "conference",
     "doi": "10.5555/3635637.3662950",
     "url": "https://dl.acm.org/doi/10.5555/3635637.3662950"
-  },
-  {
-    "title": "Redefining ABA+ semantics via abstract set-to-set attacks",
-    "authors": "Rapberger A, Ulbricht M, Toni F",
-    "year": 2024,
-    "venue": "COMMA 2024",
-    "venue_full": "Likely COMMA 2024 or workshop",
-    "category": "conference",
-    "doi": "",
-    "url": ""
   },
   {
     "title": "Robust Counterfactual Explanations in Machine Learning: A Survey",
