@@ -316,17 +316,6 @@
     }
   },
   {
-    "title": "Heterogeneous Graph Neural Networks for Assumption-Based Argumentation",
-    "authors": "Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni",
-    "year": 2025,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
-    "doi": "10.48550/ARXIV.2511.08982",
-    "url": "https://doi.org/10.48550/arXiv.2511.08982",
-    "citationCount": 0
-  },
-  {
     "title": "Heterogeneous Graph Neural Networks for Credulous Acceptance of Assumptions in ABA",
     "authors": "Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni",
     "year": 2025,
@@ -335,16 +324,6 @@
     "category": "workshop",
     "doi": "",
     "url": "https://hal.science/hal-05339535/document#page=16"
-  },
-  {
-    "title": "Heterogeneous graph neural networks with post-hoc explanations for multi-modal and explainable land use inference",
-    "authors": "Xuehao Zhai, Junqi Jiang, Adam Dejl, Antonio Rago, Fangce Guo, Francesca Toni, Aruna Sivakumar",
-    "year": 2025,
-    "venue": "Information Fusion",
-    "venue_full": "Inf. Fusion",
-    "category": "journal",
-    "doi": "10.1016/J.INFFUS.2025.103057",
-    "url": "https://doi.org/10.1016/j.inffus.2025.103057"
   },
   {
     "title": "Hidden Conflicts in Neural Networks and their Implications for Explainability",
