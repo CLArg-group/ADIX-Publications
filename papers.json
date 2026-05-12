@@ -179,16 +179,6 @@
     }
   },
   {
-    "title": "Analyzing Key Neurons in Large Language Models",
-    "authors": "Lihu Chen, Adam Dejl, Francesca Toni",
-    "year": 2025,
-    "venue": "AAAI",
-    "venue_full": "AAAI",
-    "category": "conference",
-    "doi": "10.48550/ARXIV.2406.10868",
-    "url": "https://doi.org/10.48550/arXiv.2406.10868"
-  },
-  {
     "title": "Argtumour: integrating large language models and computational argumentation to discuss treatment options for high-grade glioma",
     "authors": "Dejl A, Ayoobi H, Cherrington C, Gardner D, Toni F, Pakzad-Shahabi L, Williams M",
     "year": 2025,
@@ -555,10 +545,10 @@
   },
   {
     "title": "Using computational argumentation to integrate activity and quality of life data to predict disease progression in patients with high-grade glioma",
-    "authors": "Williams M, Dejl A, Toni F et al.",
+    "authors": "Williams M, Gloud A, Toni F et al.",
     "year": 2025,
     "venue": "Neuro-Oncology",
-    "venue_full": "Neuro-Oncology (medical journal/conference abstract)",
+    "venue_full": "Neuro-Oncology",
     "category": "journal",
     "doi": "",
     "url": ""
