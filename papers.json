@@ -1,5 +1,15 @@
 [
   {
+    "title": "An Approach to Personalised Decision Support based on Gradual Bipolar Argumentation Enhanced with User Preferences",
+    "authors": "Elisa Battaglia, Pietro Baroni, Antonio Rago, Francesca Toni",
+    "year": 2026,
+    "venue": "European Journal on Artificial Intelligence",
+    "venue_full": "European Journal on Artificial Intelligence",
+    "category": "journal",
+    "doi": "",
+    "url": "https://kclpure.kcl.ac.uk/ws/portalfiles/portal/365091803/EB.pdf"
+  },
+  {
     "title": "ArgLLM-App: An Interactive System for Argumentative Reasoning with Large Language Models",
     "authors": "Adam Dejl, Deniz Gorur, Francesca Toni",
     "year": 2026,
@@ -33,9 +43,9 @@
     "title": "Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us",
     "authors": "Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh",
     "year": 2026,
-    "venue": "arXiv",
-    "venue_full": "CoRR",
-    "category": "preprint",
+    "venue": "AAMAS",
+    "venue_full": "AAMAS",
+    "category": "conference",
     "doi": "10.48550/ARXIV.2603.15946",
     "url": "https://doi.org/10.48550/arXiv.2603.15946"
   },
@@ -60,7 +70,7 @@
     "url": "https://arxiv.org/abs/2507.11323"
   },
   {
-    "title": "From User Preferences to Base Score Extraction Functions in Gradual Argumentation (with Appendix)",
+    "title": "From User Preferences to Base Score Extraction Functions in Gradual Argumentation",
     "authors": "Aniol Civit, Antonio Rago, Antonio Andriella, Guillem Alenyà, Francesca Toni",
     "year": 2026,
     "venue": "AAMAS",
@@ -118,16 +128,6 @@
     "category": "conference",
     "doi": "10.48550/ARXIV.2510.04855",
     "url": "https://doi.org/10.48550/arXiv.2510.04855"
-  },
-  {
-    "title": "A Methodology for Gradual Semantics for Structured Argumentation under Incomplete Information",
-    "authors": "Antonio Rago, Stylianos Loukas Vasileiou, Francesca Toni, Tran Cao Son, William Yeoh",
-    "year": 2025,
-    "venue": "KR",
-    "venue_full": "KR",
-    "category": "conference",
-    "doi": "10.48550/ARXIV.2410.22209",
-    "url": "https://doi.org/10.48550/arXiv.2410.22209"
   },
   {
     "title": "A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs",
@@ -1121,6 +1121,16 @@
     "url": "https://doi.org/10.3233/FAIA230265"
   },
   {
+    "title": "The Recourse Problem under Model Multiplicity",
+    "authors": "Junqi Jiang, Antonio Rago, Francesco Leofante & Francesca Toni",
+    "year": 2023,
+    "venue": "XAIFIN",
+    "venue_full": "XAIFIN",
+    "category": "workshop",
+    "doi": "",
+    "url": "https://drive.google.com/file/d/1DyJ9ZWP-35FQZRLpCiwUfLh08NCIe0fr/view?pli=1"
+  },
+  {
     "title": "Understanding ProbLog as Probabilistic Argumentation",
     "authors": "Francesca Toni, Nico Potyka, Markus Ulbricht, Pietro Totis",
     "year": 2023,
@@ -1260,8 +1270,8 @@
     "title": "Forging Argumentative Explanations from Causal Models",
     "authors": "Antonio Rago, Fabrizio Russo, Emanuele Albini, Pietro Baroni, Francesca Toni",
     "year": 2021,
-    "venue": "AI4AI 2021",
-    "venue_full": "Proceedings of the 5th Workshop on Advances in Argumentation in Artificial Intelligence 2021 co-located with the 20th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2021), Milan, Italy, November 29th, 2021",
+    "venue": "AI^3",
+    "venue_full": "AI^3",
     "category": "workshop",
     "doi": "",
     "url": "https://ceur-ws.org/Vol-3086/paper3.pdf"
